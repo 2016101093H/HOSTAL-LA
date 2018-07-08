@@ -13,12 +13,12 @@ class CreateRecepcionistaTable extends Migration
      */
     public function up()
     {
-        Schema::create('recepcionista', function (Blueprint $table) {
+        Schema::create('recep', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nombre');
-            $table->string('dni');
-            $table->string('correo');
-            $table->string('telefono');
+            $table->string('nombre',50);
+            $table->string('dni',8);
+            $table->string('correo',50);
+            $table->string('telefono',9);
             
         });
     }
@@ -30,6 +30,7 @@ class CreateRecepcionistaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('recepcionista');
+        Schema::dropIfExists('recep');
     }
+    
 }
