@@ -56,11 +56,11 @@
                     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     
                     <ul class="nav navbar-nav">        
-                        <li><a href="index.php">Home </a></li>
-                        <li><a href="rooms-tariff.php">Rooms & Tariff</a></li>        
-                        <li><a href="introduction.php">Introduction</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="index.php">INICIO</a></li>   
+                        <li><a href="introduction.php">¿QUIENES SOMOS?</a></li>
+                        <li><a href="rooms-tariff.php">CUARTOS Y TARIFAS</a></li>   
+                        <li><a href="gallery.php">GALERIA</a></li>
+                        <li><a href="contact.php">CONTACTANOS</a></li>
                     </ul>
                     </div><!-- Wnavbar-collapse -->
                 </div><!-- container-fluid -->
