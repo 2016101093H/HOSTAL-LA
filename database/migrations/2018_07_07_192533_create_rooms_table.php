@@ -18,7 +18,8 @@ class CreateRoomsTable extends Migration
             $table->string('type',20);
             $table->string('price',10);
             $table->string('quality',20);
-            $table->boolean('available')->default(false);            
+            $table->boolean('available')->default(false); 
+                    
         });
     }
 

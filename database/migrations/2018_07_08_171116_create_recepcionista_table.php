@@ -14,7 +14,7 @@ class CreateRecepcionistaTable extends Migration
     public function up()
     {
         Schema::create('recepcionista', function (Blueprint $table) {
-            $table->increments('id');
+            $table->bigIncrements('id');
             $table->string('nombre');
             $table->string('dni');
             $table->string('correo');
