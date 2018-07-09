@@ -16,10 +16,10 @@ class CreateRoomsTable extends Migration
         Schema::create('rooms', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('type',20);
-            $table->string('price',10);
-            $table->string('quality',20);
+            $table->unsignedInteger('price');
+         
             $table->boolean('available')->default(false); 
-                    
+            
         });
     }
 
