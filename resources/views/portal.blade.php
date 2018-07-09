@@ -2,31 +2,31 @@
 @section('contenido')
     <body>
         <div class="banner">    	   
-            <img src="imageness/photos/banner.jpg"  class="img-responsive" alt="slide">
+            <img src="imagenes/photos/banner.jpg"  class="img-responsive" alt="slide">
             <div class="welcome-message">
                 <div class="wrap-info">
-                    <div class="information">
-                        <h1  class="animated fadeInDown">Best hotel in Dubai</h1>
-                        <p class="animated fadeInUp">Most luxurious hotel of asia with the royal treatments and excellent customer service.</p>                
+                    <div class="informacion">
+                        <br></br><br></br><br></br><br></br>
+                        <h1  class="animated fadeInDown">HOSTAL LOS ÁNGELES</h1>
+                        <p class="animated fadeInUp">La mejor opción en estancia y comida</p>                
                     </div>
-                    <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
+                    <a href="#informacion" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
                 </div>
             </div>
         </div>
-        <!-- banner-->
-
+        <!-- banner--> 
 
         <!-- reservation-information -->
-        <div id="information" class="spacer reserve-info ">
+        <div id="informacion" class="spacer reserve-info ">
         <div class="container">
         <div class="row">
         <div class="col-sm-7 col-md-8">
             <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft">
-                <video  class="embed-responsive-item" src="/video/cuymagico.MKV" duration=auto width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                <video  class="embed-responsive-item" src="/video/cuymagico.mp4" autostart="true" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
                 </video></div>
         </div>
         <div class="col-sm-5 col-md-4">
-        <h3>RESERVACIONES</h3>
+        <h3 style="color: #fff">RESERVACIONES</h3>
             <form role="form" class="wowload fadeInRight">
                 <div class="form-group">
                     <input type="text" class="form-control"  placeholder="Apellidos">
@@ -45,6 +45,7 @@
                     <div class="col-xs-6">
                     <select class="form-control">
                     <option>No. de Habitaciones</option>
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
@@ -54,6 +55,7 @@
                     <div class="col-xs-6">
                     <select class="form-control">
                     <option>No. de Adultos</option>
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
@@ -149,7 +151,7 @@
                         <a class="right carousel-control" href="#RoomCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
                     </div>
                     <!-- RoomCarousel-->
-                    <div class="caption">CUARTOS<a href="rooms-tariff.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+                    <div class="caption">CUARTOS<a href="LOSANGELES_cuartos" class="pull-right"><i class="fa fa-edit"></i></a></div>
                 </div>
 
 
@@ -207,11 +209,11 @@
                         <div class="col-sm-3">
                             <h4>ACCESOS RÁPIDOS</h4>
                             <ul class="list-unstyled">
-                                <li><a href="index.php">INICIO</a></li>   
-                                <li><a href="introduction.php">¿QUIENES SOMOS?</a></li>
-                                <li><a href="rooms-tariff.php">CUARTOS Y TARIFAS</a></li>   
-                                <li><a href="gallery.php">GALERÍA</a></li>
-                                <li><a href="contact.php">CONTÁCTANOS</a></li>
+                                <li><a href="LOSANGELES">INICIO</a></li>   
+                                <li><a href="LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
+                                <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
+                                <li><a href="LOSANGELES_galeria">GALERIA</a></li>
+                                <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-4 subscribe">

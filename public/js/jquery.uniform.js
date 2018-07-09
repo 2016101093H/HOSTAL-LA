@@ -292,7 +292,7 @@ Enjoy!
 	/**
 	 * Test if high contrast mode is enabled.
 	 *
-	 * In high contrast mode, background images can not be set and
+	 * In high contrast mode, background imagenes can not be set and
 	 * they are always returned as 'none'.
 	 *
 	 * @return boolean True if in high contrast mode

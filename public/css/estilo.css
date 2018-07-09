@@ -1,4 +1,4 @@
-body{background-color: #fff;font-family: 'Raleway', sans-serif;font-size: 15px;line-height: 15px; color: #73726C;}
+body{font-family: 'Raleway', sans-serif;font-size: 15px;line-height: 15px;background-color: rgb(46, 46, 44)}
 
 
 
@@ -13,7 +13,7 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 
 
 .btn{border:none !important;border-radius: 0;padding: 5px 30px;}
-.btn-default{background:#bfa145;box-shadow: none !important;color: #fff;}
+.btn-default{background:#bfa145;box-shadow: none !important;color: rgb(170, 202, 250);}
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active{box-shadow: none !important;background:#756534;color: #fff;outline: none !important;}
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{background-color: #bfa145;border-color: #bfa145;}
@@ -43,7 +43,7 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 
 
 /*reserve-info*/
-.reserve-info{background-color: #fff;}
+.reserve-info{background-color:rgb(46, 46, 44);}
 
 .services{background-color:#dedbd3; }
 .services .caption{background-color: #b9b2a0;color: #46433b;padding: 1.5em;}
@@ -83,7 +83,7 @@ footer .subscribe .social a{font-size: 1.5em;margin-right: 0.25em;}
 .form-horizontal .radio{padding-top: 3px;}
 .radio-inline input[type="radio"]{margin-left: 0;}
 div.radio{margin-right: 10px;}
-div.radio span{background:url(../images/radio.png) 0 20px !important;}
+div.radio span{background:url(../imagenes/radio.png) 0 20px !important;}
 
 div.radio span,div.radio input{width: 20px;height: 20px;}
 div.radio span.checked{background-position: 0 0 !important;}
@@ -91,9 +91,9 @@ div.radio span.checked{background-position: 0 0 !important;}
 
 .form-control{border: 1px solid #999;border-radius:0;box-shadow:none !important;}
 .form-control:focus{border: 1px solid #bbb;}
-div.selector{border:none;border: 1px solid #999;height: 33px !important; padding:3px 10px !important; border-radius: 0; font-size: 14px; background: #fff !important; width: 100% !important;}
+div.selector{border:none;border: 1px solid #999;height: 33px !important; padding:3px 10px !important; border-radius: 0; font-size: 14px; background: rgb(46, 46, 44) !important; width: 100% !important;}
 div.selector:hover{border-color: #bbb;}
-div.selector span{height: 36px;padding: 0; background: url(../images/drop.png) right 9px no-repeat !important;color: #8d8d8d; width: 100% !important;margin-right: 20px;}
+div.selector span{height: 36px;padding: 0; background: url(.../imagenes/drop.png) right 9px no-repeat !important;color: #8d8d8d; width: 100% !important;margin-right: 20px;}
 div.selector:hover span{ background-position:right 9px !important; color: #282828;}
 div.selector select{height: 36px !important;top: -2px; cursor: pointer; background-color: #fff;}
 div.selector option{ padding: 10px;}
@@ -127,7 +127,7 @@ body::-webkit-scrollbar {
 
     /* Track */
     ::-webkit-scrollbar-track {
-       background: #ccc; 
+       background: #2d2b2b; 
 /*        -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
         -webkit-border-radius: 10px;
         border-radius: 10px;*/
@@ -137,7 +137,7 @@ body::-webkit-scrollbar {
     ::-webkit-scrollbar-thumb {
 /*        -webkit-border-radius: 10px;
         border-radius: 10px;*/
-        background:#bfa145; 
+        background:#ffffff; 
     }
     ::-webkit-scrollbar-thumb:window-inactive {
         background: #ddd; 

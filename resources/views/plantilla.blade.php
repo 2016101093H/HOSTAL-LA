@@ -6,10 +6,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>HOSTAL - LOS ANGELES</title>
             <!-- Fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
             <link rel="stylesheet" href="/css/estilo.css">
-            <!-- font awesome -->
-            <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
             <!-- bootstrap -->
             <link rel="stylesheet" href="/css/bootstrap.min.css" />
@@ -25,7 +22,7 @@
             <link rel="icon" href="/imagenes/favicon.png">
             <script src="/js/jquery.js"></script>
             <!-- wow script -->
-            <script src="/js/wow/wow.min.js"></script>
+            <script src="/js/wow.min.js"></script>
             <!-- uniform -->
             <script src="/js/jquery.uniform.js"></script>
             <!-- boostrap -->
@@ -33,34 +30,34 @@
             <!-- jquery mobile -->
             <script src="/js/touchSwipe.min.js"></script>
             <!-- jquery mobile -->
-            <script src="/js/respond/respond.js"></script>
+            <script src="/js/respond.js"></script>
             <!-- gallery -->
             <script src="/js/jquery.blueimp-gallery.min.js"></script>
             <!-- custom script -->
             <script src="/js/script.js"></script>
 
-            <nav class="navbar  navbar-default" role="navigation">
+            <nav class="navbar  navbar-default" role="navigation" style="padding-bottom: 20px;padding-top: 20px">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only" style="color: black">Barra de Navegación</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand"><img src="images/logo.png"  alt="logo"></a>
+                    <a class="navbar-brand"><img src="imagenes/logo.png"  alt="logo"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     
                     <ul class="nav navbar-nav">        
-                        <li><a href="index.php">INICIO</a></li>   
-                        <li><a href="introduction.php">¿QUIENES SOMOS?</a></li>
-                        <li><a href="rooms-tariff.php">CUARTOS Y TARIFAS</a></li>   
-                        <li><a href="gallery.php">GALERIA</a></li>
-                        <li><a href="contact.php">CONTACTANOS</a></li>
+                        <li><a href="LOSANGELES">INICIO</a></li>   
+                        <li><a href="LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
+                        <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
+                        <li><a href="LOSANGELES_galeria">GALERIA</a></li>
+                        <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
                     </ul>
                     </div><!-- Wnavbar-collapse -->
                 </div><!-- container-fluid -->
