@@ -14,6 +14,9 @@
 Route::get('/LOSANGELES', function () {
     return view('portal');
 });
+Route::get('/LOSANGELES_login', function () {
+    return view('adminlogin');
+});
 Route::get('/LOSANGELES_introduccion', function () {
     return view('introduccion');
 });
@@ -29,4 +32,3 @@ Route::get('/LOSANGELES_galeria', function () {
 Route::get('/LOSANGELES_contactanos', function () {
     return view('contactanos');
 });
-
