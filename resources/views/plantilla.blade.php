@@ -35,6 +35,7 @@
             <script src="/js/jquery.blueimp-gallery.min.js"></script>
             <!-- custom script -->
             <script src="/js/script.js"></script>
+            <script src="/js/majax.js"></script>
 
             <nav class="navbar  navbar-default" role="navigation" style="padding-bottom: 20px;padding-top: 20px">
                 <div class="container">
@@ -56,7 +57,7 @@
                         <li><a href="LOSANGELES">INICIO</a></li>
                         <li><a href="LOSANGELES_login">LOGIN (admin)</a></li>   
                         <li><a href="LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
-                        <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
+                        <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>
                         <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                         <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
                     </ul>

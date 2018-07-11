@@ -2,16 +2,19 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Laravel\Passport\HasApiTokens;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Recepcionista extends Model
+class User extends Authenticatable
 {
-    /**
+    use HasApiTokens, Notifiable;
+  /**
      * Tabla usada por el modelo en la base de datos.
      *
      * @var string
      */
-    protected $table = 'recepcionista';
+    protected $table = 'users';
     /**
      * Atributos asignables.
      *
@@ -19,10 +22,8 @@ class Recepcionista extends Model
      */
     protected $fillable = [
         'id',
-        'nombre',
-        'dni',
-        'correo',
-        'telefono',
+        'name',
+        'paswword'
 
     ];
     /**
@@ -30,18 +31,13 @@ class Recepcionista extends Model
      *
      * @var boolean
      */
-    public $timestamps = false;
+    public $timestamps = true;
     /**
      * Atributos excluidos del modelo al transformarlo en JSON.
      *
      * @var array
      */
     protected $hidden = [
-        'id'
+        'id', 'remember_token'
     ];
-    //public function users()
-	//{
-    //return $this->belongsToMany(User::class, 'user_roles');
-    //}
 }
-

@@ -19,13 +19,13 @@ class CreateRegistroClientesTable extends Migration
             $table->string('pedido');
             $table->timestamps();
             $table->unsignedBigInteger('cliente_id');
-            $table->unsignedBigInteger('recepcionista_id');
+            $table->unsignedBigInteger('user_id');
             $table->foreign('cliente_id')
 				  ->references('id')
                   ->on('clientes');   
-            $table->foreign('recepcionista_id')
+            $table->foreign('user_id')
 			      ->references('id')
-                  ->on('recepcionista'); 
+                  ->on('users'); 
         });
     }
 

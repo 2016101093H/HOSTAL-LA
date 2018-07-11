@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\Models\Room;
 
 class RoomsTableSeeder extends Seeder
 {
@@ -16,7 +16,7 @@ class RoomsTableSeeder extends Seeder
         DB::table('rooms')->insert([
            
             'type' => 'Grande',
-           
+        
             'price' => 30,
             ]);
             DB::table('rooms')->insert([

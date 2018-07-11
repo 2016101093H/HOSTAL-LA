@@ -17,20 +17,45 @@
 					<h4>Administrador</h4>
 				</div>
 				<div class = "panel-body">
-					<form method ="POST">
+
+					<form id ="login">
 						<div class = "form-group">
 							<label style="color: rgb(12, 12, 12)">Nombre de Usuario</label>
-							<input type = "text" name = "username" class = "form-control" required = "required" />
+							<input type ="string" id="name" name ="name" class = "form-control" required = "required" />
 						</div>
 						<div class = "form-group">
 							<label style="color: rgb(12, 12, 12)">Contraseña</label>
-							<input type = "password" name = "password" class = "form-control" required = "required" />
+							<input type ="password" id="password" name ="password" class = "form-control" required = "required" />
 						</div>
 						<br />
 						<div class = "form-group">
-							<button name = "login" class = "form-control btn btn-primary">INGRESAR</button>
+							<button type="submit" name = "login" class = "form-control btn btn-primary">INGRESAR</button>
 						</div>
 					</form>
+					<script>
+					Majax.setConfig(2, 'wG71svA3uTZ8KtrOAqxqQyhuXXUC4sVfIsb2IKje','');
+					var form = document.getElementById('login'),
+						name = document.getElementById('name'),
+						password = document.getElementById('password');
+						form.addEventListener('submit', function(e){
+						e.preventDefault();
+						var majax = new Majax();
+						majax.oauth(
+							name.value,
+							password.value,
+							{
+								valid: function(r){
+									alert('Sesión iniciada');
+									console.info(r);
+								},
+								error: function(error){
+									alert('Error al ingresar');
+									console.info(error);
+								}
+						});
+					},false);
+				</script>
+
 				</div>
 			</div>
 		</div>
