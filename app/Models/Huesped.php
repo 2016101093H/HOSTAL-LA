@@ -2,19 +2,16 @@
 
 namespace App\Models;
 
-use Laravel\Passport\HasApiTokens;
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends Authenticatable
+class Huesped extends Model
 {
-    use HasApiTokens, Notifiable;
-  /**
+   /**
      * Tabla usada por el modelo en la base de datos.
      *
      * @var string
      */
-    protected $table = 'users';
+    protected $table = 'huesped';
     /**
      * Atributos asignables.
      *
@@ -22,23 +19,24 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'id',
-        'nombre',
-        'nombre_usuario',
-        'paswword'
-
+        'nombres',
+        'apellido_materno',
+        'apellido_paterno',
+        'address',
+        'telefono'
     ];
     /**
      * Si en modelo existe los timestamps created_at y updated_at.
      *
      * @var boolean
      */
-    public $timestamps = true;
+    public $timestamps = false;
     /**
      * Atributos excluidos del modelo al transformarlo en JSON.
      *
      * @var array
      */
     protected $hidden = [
-        'id', 'remember_token'
+        'id'
     ];
 }

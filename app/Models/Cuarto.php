@@ -2,19 +2,17 @@
 
 namespace App\Models;
 
-use Laravel\Passport\HasApiTokens;
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use App\Models\Cuarto;
 
-class User extends Authenticatable
+class Cuarto extends Model
 {
-    use HasApiTokens, Notifiable;
   /**
      * Tabla usada por el modelo en la base de datos.
      *
      * @var string
      */
-    protected $table = 'users';
+    protected $table = 'cuartos';
     /**
      * Atributos asignables.
      *
@@ -22,9 +20,8 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'id',
-        'nombre',
-        'nombre_usuario',
-        'paswword'
+        'tipo_cuarto',
+        'precio'
 
     ];
     /**
@@ -32,13 +29,13 @@ class User extends Authenticatable
      *
      * @var boolean
      */
-    public $timestamps = true;
+    public $timestamps = false;
     /**
      * Atributos excluidos del modelo al transformarlo en JSON.
      *
      * @var array
      */
     protected $hidden = [
-        'id', 'remember_token'
+        'id'
     ];
 }

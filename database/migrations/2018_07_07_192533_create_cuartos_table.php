@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateServicioClientesTable extends Migration
+class CreateCuartosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,13 @@ class CreateServicioClientesTable extends Migration
      */
     public function up()
     {
-        Schema::create('servicio_clientes', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+        Schema::create('cuartos', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('tipo_cuarto',20);
+            $table->unsignedInteger('price');
+         
+            $table->boolean('available')->default(false); 
+            
         });
     }
 
@@ -26,6 +30,6 @@ class CreateServicioClientesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('servicio_clientes');
+        Schema::dropIfExists('rooms');
     }
 }
