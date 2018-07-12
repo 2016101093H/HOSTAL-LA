@@ -18,5 +18,5 @@ use Illuminate\Http\Request;
 });
 */
 Route::middleware(['auth:api','cors'])->group(function (){
-    Route::get('/user');
+    Route::get('\users');
 });
