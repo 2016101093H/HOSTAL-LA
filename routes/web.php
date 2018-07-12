@@ -17,6 +17,23 @@ Route::get('/LOSANGELES', function () {
 Route::get('/LOSANGELES_login', function () {
     return view('adminlogin');
 });
+Route::get('/LOSANGELES_adminportal', function () {
+    return view('admin1home');
+});
+Route::get('/LOSANGELES_adminportal_cuenta', function () {
+    return view('admin2cuenta');
+});
+Route::get('/LOSANGELES_adminportal_reserva', function () {
+    return view('admin3reserva');
+});
+Route::get('/LOSANGELES_adminportal_habitaciones', function () {
+    return view('admin4habitaciones');
+});
+
+
+
+
+
 Route::get('/LOSANGELES_introduccion', function () {
     return view('introduccion');
 });

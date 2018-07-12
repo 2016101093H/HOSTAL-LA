@@ -76,23 +76,4 @@
                     <!--/.container-->    
                 <!--/.footer-bottom--> 
     </footer>
-
-            <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
-        
-
-                <script src="/js/jquery.js"></script>
-                <!-- wow script -->
-                <script src="/js/wow.min.js"></script>
-                <!-- uniform -->
-                <script src="/js/jquery.uniform.js"></script>
-                <!-- boostrap -->
-                <script src="/js/bootstrap.js" type="text/javascript" ></script>
-                <!-- jquery mobile -->
-                <script src="/js/touchSwipe.min.js"></script>
-                <!-- jquery mobile -->
-                <script src="/js/respond.js"></script>
-                <!-- gallery -->
-                <script src="/js/jquery.blueimp-gallery.min.js"></script>
-                <!-- custom script -->
-                <script src="/js/script.js"></script>
 @endsection
