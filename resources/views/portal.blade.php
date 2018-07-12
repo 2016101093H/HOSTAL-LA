@@ -63,7 +63,7 @@
                         <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
                     </div>
                     <!-- RoomCarousel-->
-                    <div class="caption">NUESTROS SERVICIOS<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+                    <div class="caption">NUESTROS SERVICIOS<a href="LOSANGELES_cuartos" class="pull-right"><i class="fa fa-edit"></i></a></div>
                 </div>
 
 
@@ -80,7 +80,7 @@
                         <a class="right carousel-control" href="#FoodCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
                     </div>
                     <!-- RoomCarousel-->
-                    <div class="caption">RESTAURANTE LOS ÁNGELES<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+                    <div class="caption">RESTAURANTE LOS ÁNGELES<a href="LOSANGELES_cuartos" class="pull-right"><i class="fa fa-edit"></i></a></div>
                 </div>
             </div>
         </div>

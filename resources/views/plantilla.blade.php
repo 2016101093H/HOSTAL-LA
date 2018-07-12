@@ -15,7 +15,7 @@
             <!-- animate.css -->
             <link rel="stylesheet" href="/css/animate.css" />
             <!-- gallery -->
-            <link rel="stylesheet" href="/css/blueimp-gallery.min.css">
+            <link rel="stylesheet" href="/css/LOSANGELES_adminportal_habitaciones.css">
 
             <!-- favicon -->
             <link rel="shortcut icon" href="/imagenes/favicon.png">
@@ -32,7 +32,7 @@
             <!-- jquery mobile -->
             <script src="/js/respond.js"></script>
             <!-- gallery -->
-            <script src="/js/jquery.blueimp-gallery.min.js"></script>
+            <script src="/js/jquery.LOSANGELES_adminportal_habitaciones.js"></script>
             <!-- custom script -->
             <script src="/js/script.js"></script>
             <script src="/js/majax.js"></script>
