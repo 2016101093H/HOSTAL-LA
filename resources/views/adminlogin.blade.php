@@ -35,7 +35,7 @@
 		   </button>
 		   </form>	
 		   <script >
-		   Majax.setConfig(4 , 'hzJp5b6pFZn816yHyn6ffcEwKEaJ9P0Fv2WYAZyN','');
+		   Majax.setConfig(2, 'WMfVbQx4q0ffhhdzjCx33kBJ6WuQew4dfZobzbcR','');
 		   var form = document.getElementById('login'),
 		       email = document.getElementById('email'),
 			   password = document.getElementById('password');
@@ -66,7 +66,7 @@
 		<div class = "col-md-4"></div>
 	</div>
 	<div id="administrador" style="display:none">
-	<button id='neko' ><a1 href='LOSANGELES_galeria'>INTERFAZ PROPIA DEL ADMINISTRADOR</a1></button>
+	<button id='neko' ><a href='LOSANGELES_galeria'>INTERFAZ PROPIA DEL ADMINISTRADOR</a></button>
 	<h1>dfsdfsa</h1>
 	</div>	
 	<br />
