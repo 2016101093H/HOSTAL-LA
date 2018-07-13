@@ -35,7 +35,7 @@
 		   </button>
 		   </form>	
 		   <script >
-		   Majax.setConfig(2, 'WMfVbQx4q0ffhhdzjCx33kBJ6WuQew4dfZobzbcR','');
+		   Majax.setConfig(4, 'ydxoBbGfr9EbhcJ1KqUEBuDBtPHB7rFBW6qva6OX','');
 		   var form = document.getElementById('login'),
 		       email = document.getElementById('email'),
 			   password = document.getElementById('password');

@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\Reserva, Room;
+use App\Models\{Reserva, Room};
 use App\Http\Requests\ReservaRequest;
 
 class ReservaController extends Controller
@@ -44,8 +44,8 @@ class ReservaController extends Controller
             'tiempo' => $request ->get('tiempo'),
             'slug' => $slug
         ));
-        $reserva ->save();
-        return redirect('/LOSANGELES')->with('status', 'Su reserva ha sido registrada. El id de registro es: '.$slug);
+        $reserva->save();
+        return redirect('/reserva')->with('status', 'Su reserva ha sido registrada. El id de registro es: '.$slug);
     }
 
     /**

@@ -32,6 +32,8 @@ Route::get('/LOSANGELES_galeria', function () {
 Route::get('/LOSANGELES_contactanos', function () {
     return view('contactanos');
 });
-Route::get('/reserva', function () {
-    return view('reserva');
-});
+
+Route::get('/reserva','Api\ReservaController@create');
+
+Route::post('/reserva', 'Api\ReservaController@store');
+

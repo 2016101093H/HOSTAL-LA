@@ -17,7 +17,7 @@ class CreateReservasTable extends Migration
             $table->bigIncrements('id');
             //id_cliente, id_usuario, id_habitac,
             $table->date('inicio');
-            $table->date('tiempo');
+            $table->string('tiempo');
             $table->timestamps();
             $table->unsignedBigInteger('cliente_id');
             $table->unsignedBigInteger('room_id');

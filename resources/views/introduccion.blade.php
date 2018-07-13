@@ -8,11 +8,11 @@
             </div>
             <div class="col-sm-4">
                 <h2 style="margin-top: 0; text-align: center">MISIÓN</h2>
-                <p style="text-align: center">Fale acid rest bock, " trappist biere de garde," infusion oxidized, carboy. hard cider, crystal malt hoppy pitch alpha acid dry stout tulip glass fermentation. bitter malt extract, dunkle, squares. units of bitterness trappist wort chiller keg krausen ester. brewpub. cold filter length, alcohol copper degrees plato aau.</p>
+                <p style="text-align: center">Satisfacer las necesidades de sus clientes y huéspedes superando sus expectativas, brindándoles productos y servicios de calidad.</p>
             </div>
             <div class="col-sm-4">
                 <h2 style="margin-top: 0; text-align: center">VISIÓN</h2>
-                <p style="text-align: center">Dry stout aau pilsner. bock cold filter lauter tun specific gravity degrees plato ibu cold filter. brew kettle crystal malt, hard cider ipa bright beer caramel malt. pitching aerobic keg finishing hops pub units of bitterness.</p>
+                <p style="text-align: center">Para el año 2019 ser reconocido, como el Hostal líder de la zona, siendo la mejor opción para el descanso del huésped   y a la vez ser una buena experiencia para los clientes.</p>
             </div>              
        </div>
 
