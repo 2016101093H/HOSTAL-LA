@@ -38,10 +38,19 @@ Route::get('/LOSANGELES_introduccion', function () {
     return view('introduccion');
 });
 Route::get('/LOSANGELES_cuartos', function () {
-    return view('cuartos-detalles');
-});
-Route::get('/LOSANGELES_cuartosdetalles', function () {
     return view('cuartos');
+});
+Route::get('/LOSANGELES_cuartosmatrimonial', function () {
+    return view('cuartos_matrimonial');
+});
+Route::get('/LOSANGELES_cuartosindividuales', function () {
+    return view('cuartos_individuales');
+});
+Route::get('/LOSANGELES_cuartosdobles', function () {
+    return view('cuartos_dobles');
+});
+Route::get('/LOSANGELES_cuartostriples', function () {
+    return view('cuartos_triples');
 });
 Route::get('/LOSANGELES_galeria', function () {
     return view('galeria');
@@ -49,6 +58,8 @@ Route::get('/LOSANGELES_galeria', function () {
 Route::get('/LOSANGELES_contactanos', function () {
     return view('contactanos');
 });
-Route::get('/reserva', function () {
-    return view('reserva');
-});
+
+Route::get('/reserva','Api\ReservaController@create');
+
+Route::post('/reserva', 'Api\ReservaController@store');
+

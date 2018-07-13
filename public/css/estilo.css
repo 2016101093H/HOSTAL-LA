@@ -104,11 +104,11 @@ div.selector option{ padding: 10px;}
 
 /*rooms and tariff*/
 .rooms{margin-bottom: 2em;}
-.rooms .info{padding: 1.5em;background-color: #E8E7E0;}
+.rooms .info{padding: 1.5em;background-color: #196f4a;}
 
 
 .room-features .amenitites li{margin-bottom: 1em;}
-.room-features .size-price{background-color: #C7C5BB;padding: 2em 0;text-align: center;color: #fff;height: 10.97em;line-height: 3em;}
+.room-features .size-price{background-color: rgb(252, 212, 11);padding: 2em 0;text-align: center;color: rgb(0, 0, 0);height: 10.97em;line-height: 3em;}
 .room-features .size-price span{display: block;font-size: 2em;}
 
 

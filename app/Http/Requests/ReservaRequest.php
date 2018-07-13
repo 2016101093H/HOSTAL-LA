@@ -27,7 +27,7 @@ class ReservaRequest extends FormRequest
             
             'type'	=>	'required|exists:rooms,type',
             'inicio'	=>	'required|min:9',
-            'tiempo'	=>	'required|min:2'
+            'cant_dias'	=>	'required|min:2'
         ];
     }
 }

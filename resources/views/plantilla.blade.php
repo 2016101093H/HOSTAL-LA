@@ -45,7 +45,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand"><img src="imagenes/123.jpg"  alt="logo"></a>
+                    <a class="navbar-brand"><img src="imagenes/123456.png"  alt="logo"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
