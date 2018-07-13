@@ -49,3 +49,6 @@ Route::get('/LOSANGELES_galeria', function () {
 Route::get('/LOSANGELES_contactanos', function () {
     return view('contactanos');
 });
+Route::get('/reserva', function () {
+    return view('reserva');
+});

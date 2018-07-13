@@ -7,7 +7,7 @@
             <title>HOSTAL - LOS ANGELES</title>
             <!-- Fonts -->
             <link rel="stylesheet" href="/css/estilo.css">
-
+            <link rel="stylesheet" href="/css/estiloadmin.css">
             <!-- bootstrap -->
             <link rel="stylesheet" href="/css/bootstrap.min.css" />
             <!-- uniform -->
@@ -15,7 +15,6 @@
             <!-- animate.css -->
             <link rel="stylesheet" href="/css/animate.css" />
             <!-- gallery -->
-            <link rel="stylesheet" href="/css/LOSANGELES_adminportal_habitaciones.css">
 
             <!-- favicon -->
             <link rel="shortcut icon" href="/imagenes/favicon.png">
@@ -32,7 +31,6 @@
             <!-- jquery mobile -->
             <script src="/js/respond.js"></script>
             <!-- gallery -->
-            <script src="/js/jquery.LOSANGELES_adminportal_habitaciones.js"></script>
             <!-- custom script -->
             <script src="/js/script.js"></script>
             <script src="/js/majax.js"></script>
@@ -47,7 +45,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand"><img src="imagenes/logo.png"  alt="logo"></a>
+                    <a class="navbar-brand"><img src="imagenes/123.jpg"  alt="logo"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->

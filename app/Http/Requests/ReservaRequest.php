@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Api;
+namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class UserAdminRequest extends FormRequest
+class ReservaRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,7 +24,10 @@ class UserAdminRequest extends FormRequest
     public function rules()
     {
         return [
-            'id'	=>	'required|exists:users,id'
+            
+            'type'	=>	'required|exists:rooms,type',
+            'inicio'	=>	'required|min:9',
+            'tiempo'	=>	'required|min:2'
         ];
     }
 }

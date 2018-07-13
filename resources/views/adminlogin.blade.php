@@ -1,5 +1,6 @@
 @extends('plantilla')
 @section('contenido')
+
     <nav style = "background-color:rgba(0, 0, 0, 0.1);" class = "navbar navbar-default">
         <div  class = "container-fluid">
 			<div class = "navbar-header" style="position:center">
@@ -18,48 +19,56 @@
 				</div>
 				<div class = "panel-body">
 
-					<form id ="login">
-						<div class = "form-group">
-							<label style="color: rgb(12, 12, 12)">Nombre de Usuario</label>
-							<input type ="string" id="name" name ="name" class = "form-control" required = "required" />
-						</div>
-						<div class = "form-group">
-							<label style="color: rgb(12, 12, 12)">Contraseña</label>
-							<input type ="password" id="password" name ="password" class = "form-control" required = "required" />
-						</div>
-						<br />
-						<div class = "form-group">
-							<button type="submit" name = "login" class = "form-control btn btn-primary">INGRESAR</button>
-						</div>
-					</form>
-					<script>
-					Majax.setConfig(2, 'wG71svA3uTZ8KtrOAqxqQyhuXXUC4sVfIsb2IKje','');
-					var form = document.getElementById('login'),
-						name = document.getElementById('name'),
-						password = document.getElementById('password');
-						form.addEventListener('submit', function(e){
-						e.preventDefault();
-						var majax = new Majax();
-						majax.oauth(
-							name.value,
-							password.value,
-							{
-								valid: function(r){
-									alert('Sesión iniciada');
-									console.info(r);
-								},
-								error: function(error){
-									alert('Error al ingresar');
-									console.info(error);
-								}
-						});
-					},false);
-				</script>
+		<form id="login" style="color: rgb(1,1,1)">
+	    <legend>
+		   Inicio de Sesion
+		   </legend>
+		   <label for="email">
+		   		Correo:
+		   </label>
+		   <input type="email" id="email" name="email">
+		   </br>
+		   <label for="password">
+		   		Contraseña:
+		   </label>
+		   <input type="password" id="password" name="password">
+		   <button type="submit">Ingresar</a>
+		   </button>
+		   </form>	
+		   <script >
+		   Majax.setConfig(2, 'wG71svA3uTZ8KtrOAqxqQyhuXXUC4sVfIsb2IKje','');
+		   var form = document.getElementById('login'),
+		       email = document.getElementById('email'),
+			   password = document.getElementById('password');
+			  form.addEventListener('submit',function(e){
+				  e.preventDefault();
+				  var majax = new Majax();
+				  majax.oauth(email.value,
+				              password.value,
+							  {
+								  valid: function(r){
+									  alert('Sesión iniciada');
+									  console.info(r);
+									  document.getElementById('administrador').style.display="block";
+									  document.getElementById('login').style.display = "none";
+								  },
+								  error: function(error){
+									  alert('Error al ingresar');
+									  console.info(error);
+								  }
+							  } );
+			  },false);
+			  </script>
+			 
 
 				</div>
 			</div>
 		</div>
 		<div class = "col-md-4"></div>
+	</div>
+	<div id="administrador" style="display:none">
+	<button id='neko' ><a href='LOSANGELES_galeria'>INTERFAZ PROPIA DEL ADMINISTRADOR</a></button>
+	<h1>dfsdfsa</h1>
 	</div>	
 	<br />
 	<br />

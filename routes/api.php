@@ -18,5 +18,7 @@ use Illuminate\Http\Request;
 });
 */
 Route::middleware(['auth:api','cors'])->group(function (){
-    Route::get('/user');
+    Route::get('\users');
+    Route::get('reserva','Api\ReservaController@create');
+    Route::get('reserva','Api\ReservaController@store');
 });
