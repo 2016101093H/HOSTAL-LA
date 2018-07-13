@@ -21,7 +21,10 @@ class Reserva extends Model
         'id',
         'inicio',
         'cant_dias',
-        'rooms_type'
+        'cant_hab',
+        'type',
+        'nombre'
+
         //'cliente_id',
         //'room_id'
 
@@ -31,7 +34,7 @@ class Reserva extends Model
      *
      * @var boolean
      */
-    public $timestamps = false;
+    public $timestamps = true;
     /**
      * Atributos excluidos del modelo al transformarlo en JSON.
      *

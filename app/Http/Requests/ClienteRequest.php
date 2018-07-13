@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ReservaRequest extends FormRequest
+class ClienteRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,11 +25,10 @@ class ReservaRequest extends FormRequest
     {
         return [
             
-            'type'	=>	'required|exists:rooms,type',
-            'nombre'	=>	'required|exists:clientes,nombre',
-            'inicio'	=>	'required|min:9',
-            'cant_dias'	=>	'required|min:1',
-            'cant_hab'	=>	'required|min:1'
+            'nombre'	=>	'required',
+            'dni'	=>	'required',
+            'email'	=>	'required',
+            'telefono'	=>	'required'
         ];
     }
 }
