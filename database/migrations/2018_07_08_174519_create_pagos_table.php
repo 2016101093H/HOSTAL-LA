@@ -23,7 +23,7 @@ class CreatePagosTable extends Migration
 
             $table->foreign('reserva_id')
 				  ->references('id')
-                  ->on('reserva');   
+                  ->on('reservas');   
             
         });
     }
