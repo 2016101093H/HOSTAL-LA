@@ -33,13 +33,13 @@
                 <li>Colchón de látex</li>
                 <li>Caja de seguridad</li>
                 </ul>
- 
                 </div>  
+
                 <div class="col-sm-3 col-md-2">
-                <div class="size-price">TAMAÑO<span>44 m<sup>2</sup></span></div>
+                    <div class="size-price">TAMAÑO<span>32 m<sup>2</sup></span></div>
                 </div>
                 <div class="col-sm-3 col-md-2">
-                <div class="size-price">PRECIO<span>S/.60.00</span></div>
+                    <div class="size-price">PRECIO<span>S/.60.00</span></div>
                 </div>
             </div>
         </div>             
