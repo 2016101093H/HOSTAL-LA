@@ -26,12 +26,15 @@
 		   <label for="type">
 		   Tipo:
 		   </label>
-		   <input type="text" id="type" name="type">
+		   		<input type="text" id="type" name="type">
 		   <label for="inicio">
 		   Inicio:
 		   </label>
-		   <input type="date" id="inicio" name="inicio">
-           
+		   		<input type="date" id="inicio" name="inicio">
+		   <label for="tiempo">
+		   Tiempo:
+		   </label>
+		   		<input type="text" id="cant_dias" name="cant_dias">
 		   <button type="submit">
 	       Ingresar
 		   </button>

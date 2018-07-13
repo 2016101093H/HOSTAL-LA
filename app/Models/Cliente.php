@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Reserva extends Model
+class Cliente extends Model
 {
    /**
      * Tabla usada por el modelo en la base de datos.
@@ -21,9 +21,8 @@ class Reserva extends Model
         'id',
         'inicio',
         'cant_dias',
-        'rooms_type'
-        //'cliente_id',
-        //'room_id'
+        'cliente_id',
+        'room_id'
 
     ];
     /**
@@ -45,4 +44,5 @@ class Reserva extends Model
     //return $this->belongsToMany(User::class, 'user_roles');
     //}
 }
+
 
