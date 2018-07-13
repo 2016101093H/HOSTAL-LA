@@ -45,7 +45,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+<<<<<<< HEAD
                     <a class="navbar-brand"><img src="imagenes/1234567.png"  alt="logo"></a>
+=======
+                    <a class="navbar-brand"><img src="imagenes/123456.png"  alt="logo"></a>
+>>>>>>> joserb
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->

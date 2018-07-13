@@ -1,17 +1,15 @@
 <?php
-
 namespace App\Models;
-
 use Illuminate\Database\Eloquent\Model;
-
-class Reserva extends Model
+use App\Models\Room;
+class Room extends Model
 {
-   /**
+  /**
      * Tabla usada por el modelo en la base de datos.
      *
      * @var string
      */
-    protected $table = 'reservas';
+    protected $table = 'rooms';
     /**
      * Atributos asignables.
      *
@@ -19,12 +17,8 @@ class Reserva extends Model
      */
     protected $fillable = [
         'id',
-        'inicio',
-        'cant_dias',
-        'rooms_type'
-        //'cliente_id',
-        //'room_id'
-
+        'type',
+        'price'
     ];
     /**
      * Si en modelo existe los timestamps created_at y updated_at.
@@ -45,4 +39,3 @@ class Reserva extends Model
     //return $this->belongsToMany(User::class, 'user_roles');
     //}
 }
-

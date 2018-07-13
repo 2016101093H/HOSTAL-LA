@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCuartosTable extends Migration
+class CreateRoomsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateCuartosTable extends Migration
      */
     public function up()
     {
-        Schema::create('cuartos', function (Blueprint $table) {
+        Schema::create('rooms', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('tipo_cuarto',20);
+            $table->string('type',20);
             $table->unsignedInteger('price');
          
             $table->boolean('available')->default(false); 

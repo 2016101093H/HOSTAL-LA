@@ -19,10 +19,11 @@ class Reserva extends Model
      */
     protected $fillable = [
         'id',
-        'fech_inicio',
-        'tiempo',
-        'cliente_id',
-        'room_id'
+        'inicio',
+        'cant_dias',
+        'rooms_type'
+        //'cliente_id',
+        //'room_id'
 
     ];
     /**
