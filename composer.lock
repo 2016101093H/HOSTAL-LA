@@ -5,7 +5,11 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "b07dddbe3dfd9c28ddd0017e1f1a2fd9",
+=======
+    "content-hash": "cc4422cc8963af4f9f32f63af5f3528c",
+>>>>>>> joserb
 =======
     "content-hash": "cc4422cc8963af4f9f32f63af5f3528c",
 >>>>>>> joserb
@@ -124,6 +128,7 @@
             "time": "2018-01-04T06:59:27+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "barryvdh/laravel-ide-helper",
             "version": "v2.4.3",
@@ -247,6 +252,8 @@
             "time": "2016-06-13T19:28:20+00:00"
         },
         {
+=======
+>>>>>>> joserb
 =======
 >>>>>>> joserb
             "name": "defuse/php-encryption",
