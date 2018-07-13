@@ -21,6 +21,7 @@
                 <p>Las habitaciones son sobrias y ofrecen servicios pensados para garantizar siempre la máxima profesionalidad a sus clientes.</p>
                 <p>Disponen, de hecho, de aire acondicionado, teléfono, televisión satelital y una conexión inalámbrica totalmente gratuita, además de, naturalmente, limpios y cómodos baños privados.</p>
                 </div>
+
                 <div class="col-sm-6 col-md-3 amenitites"> 
                 <h3>COMODIDAD</h3>    
                 <ul>
@@ -31,7 +32,8 @@
                 <li>Colchón de látex</li>
                 <li>Caja de seguridad</li>
                 </ul>
-                </div>  
+                </div> 
+
                 <div class="col-sm-3 col-md-2">
                     <div class="size-price">TAMAÑO<span>44 m<sup>2</sup></span></div>
                 </div>
@@ -46,7 +48,7 @@
 <footer class="spacer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <h4>HOSTAL LOS ÁNGELES</h4>
                             <HR style="height=2px"></HR>
                             <b>
@@ -55,7 +57,7 @@
                             <p>En la dirección: Av. Evitamiento Norte - El Tambo</p>
                             <I>Referencia: 4 cuadras al suroeste de Parque Industrial</I>
                         </div>              
-                        <div class="col-sm-5">
+                        <div class="col-sm-3">
                             <h4>ACCESOS RÁPIDOS</h4>
                             <ul class="list-unstyled">
                                 <li><a href="LOSANGELES">INICIO</a></li>   
@@ -64,8 +66,15 @@
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
                             </ul>
-                        
-                    </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>OTRAS HABITACIONES</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="LOSANGELES_cuartosmatrimonial">HABITACION MATRIMONIAL</a></li>   
+                                <li><a href="LOSANGELES_cuartosindividuales">HABITACION INDIVIDUAL</a></li>   
+                                <li><a href="LOSANGELES_cuartosdobles">HABITACION DOBLE</a></li>   
+                            </ul>
+                        </div>
                     <!--/.row--> 
                 </div>
                 <!--/.container-->    

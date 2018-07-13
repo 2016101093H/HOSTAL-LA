@@ -1,13 +1,11 @@
 @extends('plantilla')
     @section('contenido')
     <div class="container">
-        <h1 class="title">Luxirious Suites</h1>
+        <h1 class="title">HABITACIONES DOBLES</h1>
         <!-- RoomDetails -->
             <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="imagenes/photos/8.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="imagenes/photos/9.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="imagenes/photos/10.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="imagenes/photos/10.jpg" class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -18,25 +16,29 @@
         <div class="room-features spacer">
             <div class="row">
                 <div class="col-sm-12 col-md-5"> 
-                <p>Space in your house How to sell faster than your neighbors How to make a strategic use. To discourage you by telling. To discourage you by telling. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. The real goal of any talk or speech. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. To discourage you by telling. To discourage you by telling. Space in your house How to sell faster than your neighbors How to make a strategic use. The real goal of any talk or speech.</p>
-                <p>By Learning Ways To Become Peaceful. One of the greatest barriers to making the sale is your prospect's natural. Don't stubbornly. Don't stubbornly. Don't stubbornly. -And Gain Power By Learning Ways To Become Peaceful. </p>
+                <p>Hostal LOS ÁNGELES dispone de habitaciones con dos camas separadas, ideales para un viaje con amigos o colegas que deseen dormir en la misma habitación.</p>
+                <p>Las habitaciones dobles son la opción ideal para aquellos que se encuentran en Roma por motivos de trabajo, porque además del relax después de un día de trabajo intenso, 
+                    ofrecen una conexión inalámbrica gratuita, ideal para chequear el correo electrónico, consultar información y poder trabajar cuando lo necesite.</p>
+                <p>Las habitaciones son amplias, cómodas y muy luminosas; disponen de baños privados, televisión y aire acondicionado.</p>
                 </div>
+
                 <div class="col-sm-6 col-md-3 amenitites"> 
-                <h3>Amenitites</h3>    
+                <h3>COMODIDAD</h3>    
                 <ul>
-                <li>One of the greatest barriers to making the sale is your prospect.</li>
-                <li>Principle to work to make more money while having more fun.</li>
-                <li>Unlucky people. Don't stubbornly.</li>
-                <li>Principle to work to make more money while having more fun.</li>
-                <li>Space in your house How to sell faster than your neighbors</li>
+                <li>Aire acondicionado</li>
+                <li>TV satelital</li>
+                <li>Teléfono con línea directa</li>
+                <li>Conexión Wi-i gratuita</li>
+                <li>Colchón de látex</li>
+                <li>Caja de seguridad</li>
                 </ul>
+                </div>
                 
-                </div>  
                 <div class="col-sm-3 col-md-2">
-                <div class="size-price">Size<span>44 sq</span></div>
+                    <div class="size-price">TAMAÑO<span>44 m<sup>2</sup></span></div>
                 </div>
                 <div class="col-sm-3 col-md-2">
-                <div class="size-price">Price<span>$200.00</span></div>
+                    <div class="size-price">PRECIO<span>S/.50.00</span></div>
                 </div>
             </div>
         </div>             
@@ -46,7 +48,7 @@
 <footer class="spacer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <h4>HOSTAL LOS ÁNGELES</h4>
                             <HR style="height=2px"></HR>
                             <b>
@@ -55,7 +57,7 @@
                             <p>En la dirección: Av. Evitamiento Norte - El Tambo</p>
                             <I>Referencia: 4 cuadras al suroeste de Parque Industrial</I>
                         </div>              
-                        <div class="col-sm-5">
+                        <div class="col-sm-3">
                             <h4>ACCESOS RÁPIDOS</h4>
                             <ul class="list-unstyled">
                                 <li><a href="LOSANGELES">INICIO</a></li>   
@@ -64,8 +66,15 @@
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
                             </ul>
-                        
-                    </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>OTRAS HABITACIONES</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="LOSANGELES_cuartosmatrimonial">HABITACION MATRIMONIAL</a></li>   
+                                <li><a href="LOSANGELES_cuartosindividuales">HABITACION INDIVIDUAL</a></li>   
+                                <li><a href="LOSANGELES_cuartostriples">HABITACION TRIPLE</a></li>   
+                            </ul>
+                        </div>
                     <!--/.row--> 
                 </div>
                 <!--/.container-->    

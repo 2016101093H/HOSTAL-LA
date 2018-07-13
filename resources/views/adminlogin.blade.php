@@ -13,11 +13,11 @@
 		<br />
 		<div class = "col-md-4"></div>
 		<div class = "col-md-4">
-			<div class = "panel panel-danger">
+			<div class ="panel panel-danger">
 				<div class = "panel-heading">
 					<h4>Administrador</h4>
 				</div>
-				<div class = "panel-body">
+				<div class ="panel-body">
 
 		<form id="login" style="color: rgb(1,1,1)">
 	    <legend>

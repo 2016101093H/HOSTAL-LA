@@ -16,7 +16,7 @@
         <div class="room-features spacer">
             <div class="row">
                 <div class="col-sm-12 col-md-5"> 
-                <p>El Hostal LOS ÁNGELES dispone de habitaciones individuales amplias y muy luminosas, la opción ideal para quien viaja por trabajo pero no por esto desea renunciar al confort.</p>
+                <p>Hostal LOS ÁNGELES dispone de habitaciones individuales amplias y muy luminosas, la opción ideal para quien viaja por trabajo pero no por esto desea renunciar al confort.</p>
                 <p>Las habitaciones individuales del hotel cuentan con una decoración fina y cuidada, disponen de baños privados, teléfono, conexión a internet inalámbrica, caja fuerte, aire acondicionado y televisión.
                     Son habitaciones perfectas para descansar después de un día de trabajo intenso en la capital, después de un congreso, de una reunión, un simposio o un simple paseo turístico por el centro de la ciudad.</p>
                 </div>
@@ -45,9 +45,9 @@
 @endsection
 @section('pie')
 <footer class="spacer">
-                <div class="container">
+<div class="container">
                     <div class="row">
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <h4>HOSTAL LOS ÁNGELES</h4>
                             <HR style="height=2px"></HR>
                             <b>
@@ -56,7 +56,7 @@
                             <p>En la dirección: Av. Evitamiento Norte - El Tambo</p>
                             <I>Referencia: 4 cuadras al suroeste de Parque Industrial</I>
                         </div>              
-                        <div class="col-sm-5">
+                        <div class="col-sm-3">
                             <h4>ACCESOS RÁPIDOS</h4>
                             <ul class="list-unstyled">
                                 <li><a href="LOSANGELES">INICIO</a></li>   
@@ -65,8 +65,15 @@
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
                             </ul>
-                        
-                    </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>OTRAS HABITACIONES</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="LOSANGELES_cuartosmatrimonial">HABITACION MATRIMONIAL</a></li>   
+                                <li><a href="LOSANGELES_cuartosdobles">HABITACION DOBLE</a></li>   
+                                <li><a href="LOSANGELES_cuartostriples">HABITACION TRIPLE</a></li>   
+                            </ul>
+                        </div>
                     <!--/.row--> 
                 </div>
                 <!--/.container-->    

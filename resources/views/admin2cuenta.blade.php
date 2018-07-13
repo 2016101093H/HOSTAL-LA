@@ -42,21 +42,7 @@
 						<th> Acción </th>
 						</tr>
 					</thead>
-					<tbody>
-						<?php  
-							$query = $conn->query("SELECT * FROM `admin`") or die(mysqli_error());
-							while($fetch = $query->fetch_array()){
-						?>
-						<tr>
-							<td><?php echo $fetch['name']?></td>
-							<td><?php echo $fetch['username']?></td>
-							<td><?php echo md5($fetch['password'])?></td>
-							<td><center><a class = "btn btn-warning" href = "edit_LOSANGELES_adminportaL_cuenta?admin_id=<?php echo $fetch['admin_id']?>"><i class = "glyphicon glyphicon-edit"></i> Edit</a> <a class = "btn btn-danger" onclick = "confirmationDelete(this); return false;" href = "delete_LOSANGELES_adminportaL_cuenta?admin_id=<?php echo $fetch['admin_id']?>"><i class = "glyphicon glyphicon-remove"></i> Delete</a></center></td>
-						</tr>
-						<?php
-							}
-						?>
-					</tbody>
+					
 				</table>
 			</div>
 		</div>
@@ -83,3 +69,4 @@
 	});
 </script>
 @endsection
+

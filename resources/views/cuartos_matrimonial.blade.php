@@ -47,9 +47,9 @@
 @endsection
 @section('pie')
 <footer class="spacer">
-                <div class="container">
+<div class="container">
                     <div class="row">
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <h4>HOSTAL LOS ÁNGELES</h4>
                             <HR style="height=2px"></HR>
                             <b>
@@ -58,7 +58,7 @@
                             <p>En la dirección: Av. Evitamiento Norte - El Tambo</p>
                             <I>Referencia: 4 cuadras al suroeste de Parque Industrial</I>
                         </div>              
-                        <div class="col-sm-5">
+                        <div class="col-sm-3">
                             <h4>ACCESOS RÁPIDOS</h4>
                             <ul class="list-unstyled">
                                 <li><a href="LOSANGELES">INICIO</a></li>   
@@ -67,8 +67,15 @@
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
                             </ul>
-                        
-                    </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>OTRAS HABITACIONES</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="LOSANGELES_cuartosdobles">HABITACION DOBLE</a></li>   
+                                <li><a href="LOSANGELES_cuartosindividuales">HABITACION INDIVIDUAL</a></li>   
+                                <li><a href="LOSANGELES_cuartostriples">HABITACION TRIPLE</a></li>   
+                            </ul>
+                        </div>
                     <!--/.row--> 
                 </div>
                 <!--/.container-->    
