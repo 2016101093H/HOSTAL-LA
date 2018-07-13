@@ -13,22 +13,18 @@ class RoomsTableSeeder extends Seeder
     public function run()
     {
         
-        DB::table('rooms')->insert([
-           
-            'type' => 'Grande',
-        
+        DB::table('cuartos')->insert([
+            'type' => 'Standard',
             'price' => 30,
             ]);
-            DB::table('rooms')->insert([
-                'type' => 'Pequeño',
-                
-                'price' => 10,
-        ]);
-        DB::table('rooms')->insert([
+        DB::table('cuartos')->insert([
             'type' => 'Mediano',
-            
             'price' => 20,
-    ]);
+            ]);
+        DB::table('cuartos')->insert([
+            'type' => 'Pequeño',
+            'price' => 10,
+            ]);
         
     }
 }

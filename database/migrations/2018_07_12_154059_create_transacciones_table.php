@@ -15,23 +15,24 @@ class CreateTransaccionesTable extends Migration
     {
         Schema::create('transacciones', function (Blueprint $table) {
             $table->increments('id');
-            $table->foreign('huesped_id')
-                    ->references('id')
-                    ->on('huesped');
-            $table->foreign('cuarto_id')
-                    ->references('id')
-                    ->on('cuarto');
             $table->string('cuarto_no');
             $table->string('cama_extra');
             $table->string('status');
-            $table->string('cama_extra');
-            $table->unsignedInteger('dias',2);
+            $table->unsignedInteger('dias');
             $table->date('registro');
             $table->time('fecha_registro');
             $table->date('realiza_pedido');
             $table->time('fecha_realizacion_pedido');
             $table->string('monto');
             $table->timestamps();
+            $table->unsignedBigInteger('huesped_id');
+            $table->unsignedInteger('cuarto_id');
+            $table->foreign('huesped_id')
+                    ->references('id')
+                    ->on('huespeds');
+            $table->foreign('cuarto_id')
+                    ->references('id')
+                    ->on('cuartos');
         });
     }
 
