@@ -1,13 +1,11 @@
 @extends('plantilla')
     @section('contenido')
     <div class="container">
-        <h1 class="title">Luxirious Suites</h1>
+        <h1 class="title">HABITACIONES INDIVIDUALES</h1>
         <!-- RoomDetails -->
             <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="imagenes/photos/8.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="imagenes/photos/9.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="imagenes/photos/10.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="imagenes/photos/11.jpg" class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -18,25 +16,28 @@
         <div class="room-features spacer">
             <div class="row">
                 <div class="col-sm-12 col-md-5"> 
-                <p>Space in your house How to sell faster than your neighbors How to make a strategic use. To discourage you by telling. To discourage you by telling. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. The real goal of any talk or speech. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. To discourage you by telling. To discourage you by telling. Space in your house How to sell faster than your neighbors How to make a strategic use. The real goal of any talk or speech.</p>
-                <p>By Learning Ways To Become Peaceful. One of the greatest barriers to making the sale is your prospect's natural. Don't stubbornly. Don't stubbornly. Don't stubbornly. -And Gain Power By Learning Ways To Become Peaceful. </p>
+                <p>El Hostal LOS ÁNGELES dispone de habitaciones individuales amplias y muy luminosas, la opción ideal para quien viaja por trabajo pero no por esto desea renunciar al confort.</p>
+                <p>Las habitaciones individuales del hotel cuentan con una decoración fina y cuidada, disponen de baños privados, teléfono, conexión a internet inalámbrica, caja fuerte, aire acondicionado y televisión.
+                    Son habitaciones perfectas para descansar después de un día de trabajo intenso en la capital, después de un congreso, de una reunión, un simposio o un simple paseo turístico por el centro de la ciudad.</p>
                 </div>
+
                 <div class="col-sm-6 col-md-3 amenitites"> 
-                <h3>Amenitites</h3>    
+                <h3>COMODIDAD</h3>    
                 <ul>
-                <li>One of the greatest barriers to making the sale is your prospect.</li>
-                <li>Principle to work to make more money while having more fun.</li>
-                <li>Unlucky people. Don't stubbornly.</li>
-                <li>Principle to work to make more money while having more fun.</li>
-                <li>Space in your house How to sell faster than your neighbors</li>
+                <li>Aire acondicionado</li>
+                <li>TV satelital</li>
+                <li>Teléfono con línea directa</li>
+                <li>Conexión Wi-i gratuita</li>
+                <li>Colchón de látex</li>
+                <li>Caja de seguridad</li>
                 </ul>
-                
-                </div>  
+                </div> 
+
                 <div class="col-sm-3 col-md-2">
-                <div class="size-price">Size<span>44 sq</span></div>
+                    <div class="size-price">TAMAÑO<span>28 m<sup>2</sup></span></div>
                 </div>
                 <div class="col-sm-3 col-md-2">
-                <div class="size-price">Price<span>$200.00</span></div>
+                    <div class="size-price">PRECIO<span>S/.30.00</span></div>
                 </div>
             </div>
         </div>             
