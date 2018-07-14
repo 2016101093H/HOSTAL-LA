@@ -29,11 +29,26 @@
 
 function varios(){
 <!-- Multiplicacion -->
+dias=0;
 if(formulario.type.value=='Dobles')
+var dias0 = parseInt(formulario.cant_dias.value);
+var hab = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias0*hab*40;
 
-dias = parseInt(formulario.cant_dias.value);
-hab = parseInt(formulario.cant_hab.value);
-formulario.total_pago.value=dias*hab*30;
+if(formulario.type.value=='Triples')
+var dias3 = parseInt(formulario.cant_dias.value);
+var hab3 = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias3*hab3*50;
+
+if(formulario.type.value=='Indivuales')
+var dias1 = parseInt(formulario.cant_dias.value);
+var hab1 = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias1*hab1*30;
+
+if(formulario.type.value=='Matrimoniales')
+var dias2 = parseInt(formulario.cant_dias.value);
+var hab2 = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias2*hab2*60;
 }
 
 </script>
