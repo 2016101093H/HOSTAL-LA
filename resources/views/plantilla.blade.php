@@ -49,9 +49,7 @@
 
                     <a class="navbar-brand"><img src="imagenes/1234567.png"  alt="logo"></a>
 
-                    <a class="navbar-brand"><img src="imagenes/123456.png"  alt="logo"></a>
-
-                    <a class="navbar-brand"><img src="imagenes/123456.png"  alt="logo"></a>
+                    
 
                     </div>
 

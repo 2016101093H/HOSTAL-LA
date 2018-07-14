@@ -24,11 +24,7 @@ class User extends Authenticatable
         'id',
         'name',
         'email',
-<<<<<<< HEAD
-        'password'
-=======
         'paswword'
->>>>>>> origin/joserb
 
     ];
     /**

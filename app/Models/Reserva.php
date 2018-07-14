@@ -21,14 +21,10 @@ class Reserva extends Model
         'id',
         'inicio',
         'cant_dias',
-<<<<<<< HEAD
-        'rooms_type'
-=======
         'cant_hab',
         'type',
         'nombre'
 
->>>>>>> origin/joserb
         //'cliente_id',
         //'room_id'
 
@@ -38,11 +34,7 @@ class Reserva extends Model
      *
      * @var boolean
      */
-<<<<<<< HEAD
-    public $timestamps = false;
-=======
     public $timestamps = true;
->>>>>>> origin/joserb
     /**
      * Atributos excluidos del modelo al transformarlo en JSON.
      *
@@ -57,3 +49,4 @@ class Reserva extends Model
     //}
 }
 
+    

@@ -11,11 +11,7 @@ class Cliente extends Model
      *
      * @var string
      */
-<<<<<<< HEAD
-    protected $table = 'reservas';
-=======
     protected $table = 'clientes';
->>>>>>> origin/joserb
     /**
      * Atributos asignables.
      *
@@ -23,17 +19,10 @@ class Cliente extends Model
      */
     protected $fillable = [
         'id',
-<<<<<<< HEAD
-        'inicio',
-        'cant_dias',
-        'cliente_id',
-        'room_id'
-=======
         'nombre',
         'dni',
         'email',
         'telefono'
->>>>>>> origin/joserb
 
     ];
     /**
@@ -41,11 +30,7 @@ class Cliente extends Model
      *
      * @var boolean
      */
-<<<<<<< HEAD
-    public $timestamps = false;
-=======
     public $timestamps = true;
->>>>>>> origin/joserb
     /**
      * Atributos excluidos del modelo al transformarlo en JSON.
      *
