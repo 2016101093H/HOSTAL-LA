@@ -17,8 +17,27 @@
     <body>
 	<form action='/LOSANGELES_reserva' id="login" method='post'>
     @foreach ($errors->all() as $error)
-<p class="alert alert-danger">{{ $error }}</p>
-@endforeach
+    <p class="alert alert-danger">{{ $error }}</p>
+    @endforeach
+
+    @if (session('status'))
+	<div class='alert alert-succes'>
+	{{ session('status')}}
+	</div>
+	@endif
+	<script>
+
+function varios(){
+<!-- Multiplicacion -->
+if(formulario.type.value=='Dobles')
+
+dias = parseInt(formulario.cant_dias.value);
+hab = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias*hab*30;
+}
+
+</script>
+
 <input type="hidden" name="_token" value="{!! csrf_token() !!}">
 	    <legend>
 		   Reserva
@@ -58,6 +77,22 @@
 		   Cantidad de Hab.:
 		   </label>
 		   		<input type="number" id="cant_hab" name="cant_hab">
+				   <label for="type">
+		   Tipo de Pago:
+		   </label>
+		   		<select type="text" id="tipo_pago" name="tipo_pago">
+				  
+                    <option>Tipo Pago</option>
+                    <option>Contado</option>
+                    <option>Visa</option>
+                    </select>
+                    </div>
+					<label for="Habs.">
+		   Total pago:
+		   </label>
+		   		<input type="text" id="total_pago" name="total_pago">
+				   <input type="button" value="CALCULAR" onclick="varios()">		
+		
 		   <button type="submit">
 	       Ingresar
 		   </button>

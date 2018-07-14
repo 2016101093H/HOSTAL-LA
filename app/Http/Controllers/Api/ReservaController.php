@@ -22,6 +22,8 @@ class ReservaController extends Controller
         ->get();
         return view("reserva",["clientes"=>$clientes]);
         $clientes->save();
+        
+
     }
 
     /**
@@ -49,6 +51,8 @@ class ReservaController extends Controller
             'inicio' => $request ->get('inicio'),
             'cant_dias' => $request ->get('cant_dias'),
             'cant_hab' => $request ->get('cant_hab'),
+            'tipo_pago' => $request ->get('tipo_pago'),
+            'total_pago' => $request ->get('total_pago'),
             'slug' => $slug
         ));
         $reserva->save();
@@ -99,20 +103,19 @@ class ReservaController extends Controller
     {
         //
     }
-    /*public function reserva()
+    /*public function pago()
 	{
-		$resultadoss = Material::select(
-			DB::raw('users.name ,materials.title, count(user_view_materials.material_id) as veces_leido')
-            )
-            ->join('user_view_materials', 'materials.id', '=', 'user_view_materials.material_id')
-        ->join('users', 'materials.user_id', '=', 'users.id')
-        
-	->where('users.name',$request->name)
-        ->groupBy('users.name','materials.title')
-        ->orderBy('veces_leido','desc')
-		
-		->get();
-		return User::collection($resultadoss);
+        if('type'=='Dobles')
+        'total_pago' == 'cant_dias'*30;
+        if('type'=='Triples')
+        'total_pago' = 'cant_dias'*40;
+        if('type'=='Matrimoniales')
+        $resultadoss = 'cant_dias'*50;
+        if('type'=='Individuales')
+        $resultadoss = 'cant_dias'*60;
+
+   return('total_pago');
     }*/
     
+
 }

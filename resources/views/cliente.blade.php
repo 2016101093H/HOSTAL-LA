@@ -19,6 +19,12 @@
     @foreach ($errors->all() as $error)
 <p class="alert alert-danger">{{ $error }}</p>
 @endforeach
+
+@if (session('status'))
+	<div class='alert alert-succes'>
+	{{ session('status')}}
+	</div>
+	@endif
 <input type="hidden" name="_token" value="{!! csrf_token() !!}">
 	    <legend>
 		   Cliente

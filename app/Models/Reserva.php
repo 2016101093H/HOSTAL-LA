@@ -23,7 +23,9 @@ class Reserva extends Model
         'cant_dias',
         'cant_hab',
         'type',
-        'nombre'
+        'nombre',
+        'tipo_pago',
+        'total_pago'
 
         //'cliente_id',
         //'room_id'

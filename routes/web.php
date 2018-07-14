@@ -34,6 +34,7 @@ Route::get('/LOSANGELES_adminportal_habitaciones', function () {
 
 
 
+
 Route::get('/LOSANGELES_introduccion', function () {
     return view('introduccion');
 });
