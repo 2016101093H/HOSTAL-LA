@@ -2,19 +2,16 @@
 
 namespace App\Models;
 
-use Laravel\Passport\HasApiTokens;
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends Authenticatable
+class Pago extends Model
 {
-    use HasApiTokens, Notifiable;
-  /**
+   /**
      * Tabla usada por el modelo en la base de datos.
      *
      * @var string
      */
-    protected $table = 'users';
+    protected $table = 'reservas';
     /**
      * Atributos asignables.
      *
@@ -22,9 +19,9 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'id',
-        'name',
-        'email',
-        'password'
+       'tipo_pago'
+        //'cliente_id',
+        //'room_id'
 
     ];
     /**
@@ -39,6 +36,11 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'id', 'remember_token'
+        'id'
     ];
+    //public function users()
+	//{
+    //return $this->belongsToMany(User::class, 'user_roles');
+    //}
 }
+

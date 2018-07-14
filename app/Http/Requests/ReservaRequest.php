@@ -26,6 +26,8 @@ class ReservaRequest extends FormRequest
         return [
             
             'type'	=>	'required|exists:rooms,type',
+            'tipo_pago'	=>	'required|exists:pagos,tipo_pago',
+            'total_pago'	=>	'required',
             'nombre'	=>	'required|exists:clientes,nombre',
             'inicio'	=>	'required|min:9',
             'cant_dias'	=>	'required|min:1',
