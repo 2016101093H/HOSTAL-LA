@@ -24,17 +24,40 @@
 		   Reserva
 		   </legend>
 		   <label for="type">
-		   Tipo:
+		   Tipo de Habitación:
 		   </label>
-		   		<input type="text" id="type" name="type">
+		   		<select type="text" id="type" name="type">
+				  
+                    <option>Tipo Room</option>
+                    <option>Dobles</option>
+                    <option>Matrimoniales</option>
+                    <option>Triples</option>
+                    <option>Individuales</option>
+                   
+                    </select>
+                    </div>  
+					<label for="nombre">
+		   Cliente:
+		   </label>
+		   		<select type="text" id="nombre" name="nombre">
+				 
+				   @foreach($clientes as $cliente)				  
+                    <option value ="{{$cliente->nombre}}">{{$cliente->nombre}}</option>
+					@endforeach
+                </select>
+                    </div>  
 		   <label for="inicio">
-		   Inicio:
+		   Fecha de Alojamiento:
 		   </label>
 		   		<input type="date" id="inicio" name="inicio">
 		   <label for="tiempo">
-		   Tiempo:
+		   Tiempo (DÍAS):
 		   </label>
 		   		<input type="text" id="cant_dias" name="cant_dias">
+		 <label for="Habs.">
+		   Cantidad de Hab.:
+		   </label>
+		   		<input type="number" id="cant_hab" name="cant_hab">
 		   <button type="submit">
 	       Ingresar
 		   </button>

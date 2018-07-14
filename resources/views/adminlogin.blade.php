@@ -24,12 +24,11 @@
 		   Inicio de Sesion
 		   </legend>
 		   <label for="email">
-		   		Correo:
+		   Correo:
 		   </label>
 		   <input type="email" id="email" name="email">
-		   </br>
 		   <label for="password">
-		   		Contraseña:
+		   Contraseña:
 		   </label>
 		   <input type="password" id="password" name="password">
 		   <button type="submit">Ingresar</a>

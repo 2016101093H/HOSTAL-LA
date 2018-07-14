@@ -14,23 +14,27 @@ class RoomsTableSeeder extends Seeder
     {
         
         DB::table('rooms')->insert([
+           
             'type' => 'Matrimoniales',
+           
             'price' => 60,
             ]);
-
-        DB::table('rooms')->insert([
-            'type' => 'Individuales',
-            'price' => 30,
+            DB::table('rooms')->insert([
+                'type' => 'Individuales',
+                
+                'price' => 30,
         ]);
 
         DB::table('rooms')->insert([
             'type' => 'Dobles',
+            
             'price' => 40,
-        ]);
-
-        DB::table('rooms')->insert([
-            'type' => 'Triples',
-            'price' => 50,
-        ]);
+    ]);
+    DB::table('rooms')->insert([
+        'type' => 'Triples',
+        
+        'price' => 50,
+]);
+    
     }
 }

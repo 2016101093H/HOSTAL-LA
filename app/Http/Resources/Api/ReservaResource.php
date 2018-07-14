@@ -17,7 +17,12 @@ class ReservaResource extends JsonResource
         return [
             'type' => $this->type,
             'inicio' => $this->inicio,
+<<<<<<< HEAD
             'cant_dias' => $this->cant_dias
+=======
+            'cant_dias' => $this->cant_dias,
+            'cant_hab' => $this->cant_hab
+>>>>>>> origin/joserb
         ];
 
     }
