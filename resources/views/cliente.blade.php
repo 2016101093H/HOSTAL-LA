@@ -49,6 +49,7 @@
 	       Ingresar
 			
 		   </button>
+		   <div class="info"><a href="LOSANGELES_reserva" class="btn btn-default">Ir a Reserva</a></div></div></div>
 		   
 		
 		   </form>

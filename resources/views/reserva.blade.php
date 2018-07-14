@@ -15,7 +15,7 @@
 
     </head>
     <body>
-	<form action='/LOSANGELES_reserva' id="login" method='post'>
+	<form action='/LOSANGELES_reserva' id="login" method='post' name="formulario">
     @foreach ($errors->all() as $error)
     <p class="alert alert-danger">{{ $error }}</p>
     @endforeach
@@ -30,10 +30,24 @@
 function varios(){
 <!-- Multiplicacion -->
 if(formulario.type.value=='Dobles')
+var dias = parseInt(formulario.cant_dias.value);
+var hab = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias*hab*40;
 
-dias = parseInt(formulario.cant_dias.value);
-hab = parseInt(formulario.cant_hab.value);
+if(formulario.type.value=='Indivuduales')
+var dias = parseInt(formulario.cant_dias.value);
+var hab = parseInt(formulario.cant_hab.value);
 formulario.total_pago.value=dias*hab*30;
+
+if(formulario.type.value=='Matrimoniales')
+var dias = parseInt(formulario.cant_dias.value);
+var hab = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias*hab*60;
+
+if(formulario.type.value=='Triples')
+var dias = parseInt(formulario.cant_dias.value);
+var hab = parseInt(formulario.cant_hab.value);
+formulario.total_pago.value=dias*hab*50;
 }
 
 </script>
