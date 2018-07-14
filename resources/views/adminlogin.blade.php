@@ -13,30 +13,29 @@
 		<br />
 		<div class = "col-md-4"></div>
 		<div class = "col-md-4">
-			<div class ="panel panel-danger">
+			<div class = "panel panel-danger">
 				<div class = "panel-heading">
 					<h4>Administrador</h4>
 				</div>
-				<div class ="panel-body">
+				<div class = "panel-body">
 
 		<form id="login" style="color: rgb(1,1,1)">
 	    <legend>
 		   Inicio de Sesion
 		   </legend>
 		   <label for="email">
-		   		Correo:
+		   Correo:
 		   </label>
 		   <input type="email" id="email" name="email">
-		   </br>
 		   <label for="password">
-		   		Contraseña:
+		   Contraseña:
 		   </label>
 		   <input type="password" id="password" name="password">
 		   <button type="submit">Ingresar</a>
 		   </button>
 		   </form>	
 		   <script >
-		   Majax.setConfig(2, 'wG71svA3uTZ8KtrOAqxqQyhuXXUC4sVfIsb2IKje','');
+		   Majax.setConfig(4, 'ydxoBbGfr9EbhcJ1KqUEBuDBtPHB7rFBW6qva6OX','');
 		   var form = document.getElementById('login'),
 		       email = document.getElementById('email'),
 			   password = document.getElementById('password');
@@ -72,53 +71,4 @@
 	</div>	
 	<br />
 	<br />
-@endsection
-@section('pie')
-    <footer class="spacer">
-        <div class="container">
-                <div class="row">
-                    <div class="col-sm-5">
-                         <h4>HOSTAL LOS ÁNGELES</h4>
-                            <HR style="height=2px"></HR>
-                            <b>
-                            Nos encontramos en el gran distrito del Tambo, de la majestuosa ciudad de 
-                            HUANCAYO, departamento de Junín.</b><p>  </p>
-                            <p>En la dirección: Av. Evitamiento Norte - El Tambo</p>
-                            <I>Referencia: 4 cuadras al suroeste de Parque Industrial</I>
-                    </div>              
-                            
-                    <div class="col-sm-3">
-                        <h4>ACCESOS RÁPIDOS</h4>
-                           <ul class="list-unstyled">
-                                <li><a href="LOSANGELES">INICIO</a></li>   
-                                <li><a href="LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
-                                <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
-                                <li><a href="LOSANGELES_galeria">GALERIA</a></li>
-                                <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
-                            </ul>
-                    </div>
-                    <div class="col-sm-4 subscribe">
-                        <h4>SUSCRÍBETE</h4>
-                            <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
-                            <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">ENVIAR</button>
-                            </span>
-                    </div>
-                    <div class="social">
-                       <a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                        <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                        <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                        <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
-                    </div>
-                </div>
-                        <!--/.row--> 
-        </div>
-                    <!--/.container-->    
-                <!--/.footer-bottom--> 
-    </footer>
-
-            <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 @endsection

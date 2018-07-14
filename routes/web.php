@@ -62,4 +62,8 @@ Route::get('/LOSANGELES_contactanos', function () {
 Route::get('/reserva','Api\ReservaController@create');
 
 Route::post('/reserva', 'Api\ReservaController@store');
+Route::get('/cliente','Api\ClienteController@create');
 
+Route::post('/cliente', 'Api\ClienteController@store');
+
+Route::resource('reserva', 'Api\ReservaController');

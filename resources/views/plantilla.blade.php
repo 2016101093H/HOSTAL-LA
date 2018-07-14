@@ -15,6 +15,7 @@
             <!-- animate.css -->
             <link rel="stylesheet" href="/css/animate.css" />
             <!-- gallery -->
+            <link rel="stylesheet" href="/css/blueimp-gallery.min.css">
 
             <!-- favicon -->
             <link rel="shortcut icon" href="/imagenes/favicon.png">
@@ -31,6 +32,7 @@
             <!-- jquery mobile -->
             <script src="/js/respond.js"></script>
             <!-- gallery -->
+            <script src="/js/jquery.blueimp-gallery.min.js"></script>
             <!-- custom script -->
             <script src="/js/script.js"></script>
             <script src="/js/majax.js"></script>
@@ -45,15 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    <a class="navbar-brand"><img src="imagenes/1234567.png"  alt="logo"></a>
-=======
                     <a class="navbar-brand"><img src="imagenes/123456.png"  alt="logo"></a>
->>>>>>> joserb
-=======
-                    <a class="navbar-brand"><img src="imagenes/123456.png"  alt="logo"></a>
->>>>>>> joserb
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
