@@ -52,7 +52,7 @@ class ReservaController extends Controller
             'slug' => $slug
         ));
         $reserva->save();
-        return redirect('/reserva')->with('status', 'Su reserva ha sido registrada. El id de registro es: '.$slug);
+        return redirect('/LOSANGELES_reserva')->with('status', 'Su reserva ha sido registrada. El id de registro es: '.$slug);
     }
 
     /**

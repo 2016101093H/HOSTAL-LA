@@ -15,7 +15,7 @@
 
     </head>
     <body>
-	<form action='/cliente' id="login" method='post'>
+	<form action='/LOSANGELES_cliente' id="login" method='post'>
     @foreach ($errors->all() as $error)
 <p class="alert alert-danger">{{ $error }}</p>
 @endforeach
@@ -39,9 +39,12 @@
 		   Teelefono:
 		   </label>
 		   		<input type="text" id="telefono" name="telefono">
-		   <button type="submit">
+		   <button type="submit"  href="LOSANGELES_reserva">
 	       Ingresar
+			
 		   </button>
+		   
+		
 		   </form>
       </body>
       </html>     

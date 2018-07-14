@@ -15,7 +15,7 @@
 
     </head>
     <body>
-	<form action='/reserva' id="login" method='post'>
+	<form action='/LOSANGELES_reserva' id="login" method='post'>
     @foreach ($errors->all() as $error)
 <p class="alert alert-danger">{{ $error }}</p>
 @endforeach
