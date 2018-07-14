@@ -7,6 +7,7 @@
             <title>HOSTAL - LOS ANGELES</title>
             <!-- Fonts -->
             <link rel="stylesheet" href="/css/estilo.css">
+
             <!-- bootstrap -->
             <link rel="stylesheet" href="/css/bootstrap.min.css" />
             <!-- uniform -->
@@ -36,31 +37,24 @@
             <script src="/js/script.js"></script>
             <script src="/js/majax.js"></script>
 
-            <nav class="navbar  navbar-default" role="navigation" style="padding-bottom: 20px;padding-top: 20px">
+            <nav class="navbar  navbar-default" role="navigation" style="padding-bottom: 50px;padding-top: 50px">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only" style="color: black">Barra de Navegación</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand"><img src="imagenes/1234567.png"  alt="logo"></a>
-
+                        <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only" style="color: black">Barra de Navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand"><img src="imagenes/1234567.png"  alt="logo"></a>
                     </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-                    
-                    <ul class="nav navbar-nav">        
-                        <li><a href="LOSANGELES">INICIO</a></li>
-                        <li><a href="LOSANGELES_login">LOGIN (admin)</a></li>   
-                        <li><a href="LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
-                        <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>
-                        <li><a href="LOSANGELES_galeria">GALERIA</a></li>
-                        <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
-                    </ul>
+                        <ul class="nav navbar-nav">        
+                            <li><a href="LOSANGELES">INICIO</a></li> 
+                            <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>
+                            <li><a href="LOSANGELES_galeria">GALERIA</a></li>
+                        </ul>
                     </div><!-- Wnavbar-collapse -->
                 </div><!-- container-fluid -->
             </nav>

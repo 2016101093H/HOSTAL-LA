@@ -20,22 +20,17 @@
 				<div class = "panel-body">
 
 		<form id="login" style="color: rgb(1,1,1)">
-	    <legend>
+	    	<legend>
 		   Inicio de Sesion
-		   </legend>
-		   <label for="email">
-		   Correo:
-		   </label>
-		   <input type="email" id="email" name="email">
-		   <label for="password">
-		   Contraseña:
-		   </label>
+		   	</legend>
+		   	<label for="email">Correo:</label>
+		   		<input type="email" id="email" name="email"><label for="password">Contraseña:
+			</label>
 		   <input type="password" id="password" name="password">
-		   <button type="submit">Ingresar</a>
-		   </button>
-		   </form>	
+		   <button type="submit">Ingresar</a></button>
+		</form>	
 		   <script >
-		   Majax.setConfig(4, 'ydxoBbGfr9EbhcJ1KqUEBuDBtPHB7rFBW6qva6OX','');
+		   Majax.setConfig(2, 'og9OJA76xFkwu3W8IXkwlnieVS40MMnJ1VkFuPbD','');
 		   var form = document.getElementById('login'),
 		       email = document.getElementById('email'),
 			   password = document.getElementById('password');
@@ -66,8 +61,8 @@
 		<div class = "col-md-4"></div>
 	</div>
 	<div id="administrador" style="display:none">
-	<button id='neko' ><a href='LOSANGELES_galeria'>INTERFAZ PROPIA DEL ADMINISTRADOR</a></button>
-	<h1>dfsdfsa</h1>
+	<button id='neko' ><a href='LOSANGELES_adminportal'>INTERFAZ PROPIA DEL ADMINISTRADOR</a></button>
+	<h1>LOGIN EXITOSO</h1>
 	</div>	
 	<br />
 	<br />

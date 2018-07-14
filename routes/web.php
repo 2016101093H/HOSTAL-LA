@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/LOSANGELES', function () {
     return view('portal');
@@ -19,9 +22,6 @@ Route::get('/LOSANGELES_login', function () {
 });
 Route::get('/LOSANGELES_adminportal', function () {
     return view('admin1home');
-});
-Route::get('/LOSANGELES_adminportal_cuenta', function () {
-    return view('admin2cuenta');
 });
 Route::get('/LOSANGELES_adminportal_reserva', function () {
     return view('admin3reserva');
