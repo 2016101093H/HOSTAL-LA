@@ -14,13 +14,8 @@
 
             <script src="/js/jquery.js"></script>
 
-            <script src="/js/wow.min.js"></script>
-
-            <script src="/js/jquery.uniform.js"></script>
-
             <script src="/js/respond.js"></script>
 
-            <script src="/js/script.js"></script>
             <script src="/js/majax.js"></script>
 
             <link rel="shortcut icon" href="imagenes/12345678.png" type="image/x-icon">
@@ -44,8 +39,8 @@
                         <td>
                             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">        
-                                <li><a href="LOSANGELES">INICIO</a></li> 
-                                <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>
+                                <li><a href="LOSANGELES">INICIO</a></li>
+                                <li><a href = "LOSANGELES_adminportal_cliente">RESERVAS</a></li>	
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 </ul>
                             </div>

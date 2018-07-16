@@ -54,8 +54,7 @@
                         <td>
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">        
-                            <li><a href="LOSANGELES">INICIO</a></li>
-                            <li><a href="LOSANGELES_login">LOGIN (admin)</a></li>   
+                            <li><a href="LOSANGELES">INICIO</a></li>  
                             <li><a href="LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
                             <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES</a></li>
                             <li><a href="LOSANGELES_galeria">GALERIA</a></li>

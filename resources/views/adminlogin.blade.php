@@ -1,4 +1,4 @@
-@extends('plantilla')
+@extends('plantilladmin')
 @section('contenido')
 
     <nav style = "background-color:rgba(0, 0, 0, 0.1);" class = "navbar navbar-default">
