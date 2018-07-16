@@ -35,7 +35,7 @@
                    <button type="submit" class="btn btn-warning">Borrar</button>
                    </div>
                    </form>
-                </div clear="clearfix">
+                <div clear="clearfix">
                           </div>
                           </div>         
                           </div>

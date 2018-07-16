@@ -38,7 +38,16 @@
              <div class="form-group">
                 <label for="nombre" class="col-lg-2 control-label">Contenido</label>
                 <div class="col-lg--10">
-                   <textarea class="form-control" rows="10" id="content" name="content">{!! $reserva->content !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="nombre">{!! $reserva->nombre !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="type">{!! $reserva->type !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="cant_dias">{!! $reserva->cant_dias !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="cant_hab">{!! $reserva->cant_hab !!}</textarea>
+
+                   <textarea class="form-control" rows="10" id="content" name="inicio">{!! $reserva->inicio !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="tipo_pago">{!! $reserva->tipo_pago !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="total_pago">{!! $reserva->total_pago !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="slug">{!! $reserva->slug !!}</textarea>
+                   <textarea class="form-control" rows="10" id="content" name="status">{!! $reserva->status !!}</textarea>
 
                  </div>
                    </div>
