@@ -20,6 +20,11 @@
           <div class="panel-heading">
           <h2>Reservas</h2>
           </div>
+          @if (session('status'))
+          <div class="alert alert-success">
+          {{ session('status')}}
+          </div>
+          @endif
           @if ($reservas->isEmpty())
         <p>No hay reservas</p>
         @else
@@ -27,28 +32,17 @@
             <thead>
               <tr>
                 <th>Id Reserva</th>
-                <th>Nombre Cliente</th>
-                <th>Inicio de la fecha de Hospedaje</th>
-                <th>Cantidad de días</th>
-                <th>Tipo de Habitación</th>
-                <th>Cantidad de Habitaciones</th>
-                <th>Tipo de Pago</th>
-                <th>Total Pago</th>
-                <th>Status</th>
+                
                 </tr>
                 </thead>
                 <tbody>
                     @foreach( $reservas as $reserva)
                         <tr>
                           <td>{!! $reserva->id !!}</td>
-                          <td>{!! $reserva->nombre !!}</td>
-                          <td>{!! $reserva->inicio !!}</td>
-                          <td>{!! $reserva->cant_dias !!}</td>
-                          <td>{!! $reserva->type !!}</td>
-                          <td>{!! $reserva->cant_hab !!}</td>
-                          <td>{!! $reserva->tipo_pago !!}</td>
-                          <td>{!! $reserva->total_pago !!}</td>
-                          <td>{!! $reserva->status ? 'Pendiente' : 'Respondido' !!}</td>
+                        <td>
+                        <a href="{!! action('Api\ReservaController@show', $reserva->slug) !!}">{!! $reserva->nombre !!}</a>
+                        </td>
+                        <td>{!! $reserva->status ? 'Pendiente' : 'Respondido' !!}</td>
                           </tr>
                           @endforeach
                           </tbody>

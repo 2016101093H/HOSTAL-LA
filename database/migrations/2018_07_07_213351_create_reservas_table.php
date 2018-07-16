@@ -23,6 +23,7 @@ class CreateReservasTable extends Migration
             $table->string('nombre');
             $table->string('tipo_pago');
             $table->integer('total_pago');
+            $table->string('slug');
             $table->timestamps();
             /*$table->unsignedBigInteger('cliente_id');
             $table->unsignedBigInteger('room_id');

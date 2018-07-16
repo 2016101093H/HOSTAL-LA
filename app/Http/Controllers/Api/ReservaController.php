@@ -72,9 +72,10 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        //
+        $reserva = Reserva::whereSlug($slug)->firstOrFail();    
+        return view('mostrar', compact('reserva'));
     }
 
     /**
@@ -83,9 +84,10 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($slug)
     {
-        //
+        $reserva = Reserva::whereSlug($slug)->firstOrFail();    
+        return view('editar', compact('reserva'));
     }
 
     /**
@@ -106,9 +108,11 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($slug)
     {
-        //
+        $reserva = Reserva::whereSlug($slug)->firstOrFail(); 
+        $reserva->delete();   
+        return redirect('/modificar')->with('status', 'La reserva '.$slug.' ha sido borrado');
     }
     /*public function pago()
 	{

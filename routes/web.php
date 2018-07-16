@@ -78,6 +78,12 @@ Route::post('/LOSANGELES_reserva', 'Api\ReservaController@store');
 Route::get('/LOSANGELES_cliente','Api\ClienteController@create');
 
 Route::post('/LOSANGELES_cliente', 'Api\ClienteController@store');
-
 Route::resource('LOSANGELES_reserva', 'Api\ReservaController');
+
+
+//Aumentado
 Route::get('/modificar', 'Api\ReservaController@index1');
+
+Route::get('/mostrar/{slug}', 'Api\ReservaController@show');
+Route::get('/mostrar/{slug?}/edit', 'Api\ReservaController@edit');
+Route::get('/mostrar/{slug?}/delete', 'Api\ReservaController@destroy');

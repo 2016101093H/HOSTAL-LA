@@ -25,7 +25,9 @@ class Reserva extends Model
         'type',
         'nombre',
         'tipo_pago',
-        'total_pago'
+        'total_pago',
+        'slug',
+        'status'
 
         //'cliente_id',
         //'room_id'
