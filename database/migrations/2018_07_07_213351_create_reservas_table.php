@@ -24,6 +24,7 @@ class CreateReservasTable extends Migration
             $table->string('tipo_pago');
             $table->integer('total_pago');
             $table->string('slug');
+            $table->tinyInteger('status')->default(1);
             $table->timestamps();
             /*$table->unsignedBigInteger('cliente_id');
             $table->unsignedBigInteger('room_id');

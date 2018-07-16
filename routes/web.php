@@ -85,5 +85,6 @@ Route::resource('LOSANGELES_reserva', 'Api\ReservaController');
 Route::get('/modificar', 'Api\ReservaController@index1');
 
 Route::get('/mostrar/{slug}', 'Api\ReservaController@show');
-Route::post('/mostrar/{slug?}/edit', 'Api\ReservaController@edit');
+Route::get('/mostrar/{slug?}/edit', 'Api\ReservaController@edit');
+Route::post('/mostrar/{slug?}/edit', 'Api\ReservaController@update');
 Route::post('/mostrar/{slug?}/delete', 'Api\ReservaController@destroy');

@@ -97,9 +97,23 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update($slug, ReservaRequest $request)
     {
-        //
+       $reserva = Reserva::whereSlug($slug)->firstOrFail();
+       $reserva->nombre = $request->get('nombre');
+       $reserva->type = $request->get('type');
+       $reserva->cant_dias = $request->get('cant_dias');
+       $reserva->cant_hab = $request->get('cant_hab');
+       $reserva->inicio = $request->get('inicio');
+       $reserva->tipo_pago = $request->get('tipo_pago');
+       $reserva->total_pago = $request->get('total_pago');
+       if($request->get('status') !=null){
+            $reserva->status=0;}
+            else {
+                $reserva->status=1;
+            }
+            $reserva->save();
+            return redirect(action('Api\ReservaController@edit', $reserva->slug))->with('status', 'La reserva '.$slug.' ha sido actualizado!');
     }
 
     /**
