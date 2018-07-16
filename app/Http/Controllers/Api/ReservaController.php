@@ -22,7 +22,14 @@ class ReservaController extends Controller
         ->get();
         return view("reserva",["clientes"=>$clientes]);
         $clientes->save();
+   
+
+    }
+    public function index1()
+    {
         
+        $reservas=Reserva::all();
+        return view('modificar', compact('reservas'));
 
     }
 
@@ -65,9 +72,10 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        //
+        $reserva = Reserva::whereSlug($slug)->firstOrFail();    
+        return view('mostrar', compact('reserva'));
     }
 
     /**
@@ -76,9 +84,10 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($slug)
     {
-        //
+        $reserva = Reserva::whereSlug($slug)->firstOrFail();    
+        return view('editar', compact('reserva'));
     }
 
     /**
@@ -88,9 +97,23 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update($slug, ReservaRequest $request)
     {
-        //
+       $reserva = Reserva::whereSlug($slug)->firstOrFail();
+       $reserva->nombre = $request->get('nombre');
+       $reserva->type = $request->get('type');
+       $reserva->cant_dias = $request->get('cant_dias');
+       $reserva->cant_hab = $request->get('cant_hab');
+       $reserva->inicio = $request->get('inicio');
+       $reserva->tipo_pago = $request->get('tipo_pago');
+       $reserva->total_pago = $request->get('total_pago');
+       if($request->get('status') !=null){
+            $reserva->status=0;}
+            else {
+                $reserva->status=1;
+            }
+            $reserva->save();
+            return redirect(action('Api\ReservaController@edit', $reserva->slug))->with('status', 'La reserva '.$slug.' ha sido actualizado!');
     }
 
     /**
@@ -99,9 +122,11 @@ class ReservaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($slug)
     {
-        //
+        $reserva = Reserva::whereSlug($slug)->firstOrFail(); 
+        $reserva->delete();   
+        return redirect('/modificar')->with('status', 'La reserva '.$slug.' ha sido borrado');
     }
     /*public function pago()
 	{

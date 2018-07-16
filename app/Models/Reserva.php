@@ -23,13 +23,12 @@ class Reserva extends Model
         'cant_dias',
         'cant_hab',
         'type',
-<<<<<<< HEAD
-        'nombre'
-=======
         'nombre',
         'tipo_pago',
-        'total_pago'
->>>>>>> franks
+        'total_pago',
+        'slug',
+        'status'
+
 
         //'cliente_id',
         //'room_id'
