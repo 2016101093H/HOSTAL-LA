@@ -5,7 +5,7 @@
         <!-- RoomDetails -->
             <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="imagenes/photos/10.jpg" class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="imagenes/photos/IMG_0021.JPG" class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -35,10 +35,10 @@
                 </div>
                 
                 <div class="col-sm-3 col-md-2">
-                    <div class="size-price">TAMAÑO<span>44 m<sup>2</sup></span></div>
+                    <div class="size-price">TAMAÑO<span>28 m<sup>2</sup></span></div>
                 </div>
                 <div class="col-sm-3 col-md-2">
-                    <div class="size-price">PRECIO<span>S/.50.00</span></div>
+                    <div class="size-price">PRECIO<span>S/.40.00</span></div>
                 </div>
             </div>
         </div>             

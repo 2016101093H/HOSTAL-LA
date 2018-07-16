@@ -4,14 +4,13 @@
         <h2>HOSTAL: LOS ÁNGELES</h2>
         <!-- form -->
             <div class="row">
-                <div class="col-sm-6 wowload fadeInUp">
-                    <div class="rooms"><img src="imagenes/photos/8.jpg" class="img-responsive">
+                <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="imagenes/photos/matrimonial.png" class="img-responsive">
                         <div class="info"><h3>Matrimoniales</h3><a href="LOSANGELES_cuartosmatrimonial" class="btn btn-default">Ir a Detalles</a></div></div></div>
-                <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="imagenes/photos/9.jpg" class="img-responsive">
+                <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="imagenes/photos/IMG_0027.JPG" class="img-responsive">
                         <div class="info"><h3>Individuales</h3><a href="LOSANGELES_cuartosindividuales" class="btn btn-default">Ir a Detalles</a></div></div></div>
-                <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="imagenes/photos/10.jpg" class="img-responsive">
+                <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="imagenes/photos/IMG_0021.JPG" class="img-responsive">
                         <div class="info"><h3>Dobles</h3><a href="LOSANGELES_cuartosdobles" class="btn btn-default">Ir a Detalles</a></div></div></div>
-                <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="imagenes/photos/11.jpg" class="img-responsive">
+                <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="imagenes/photos/cama3.png" class="img-responsive">
                         <div class="info"><h3>Triples</h3><a href="LOSANGELES_cuartostriples" class="btn btn-default">Ir a Detalles</a></div></div></div>
             </div>
     </div>

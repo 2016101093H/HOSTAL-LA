@@ -25,7 +25,7 @@
 	<div class = "container-fluid">
 		<div class = "panel panel-default">
 			<div class = "panel-body">
-				<center><img src = "/imagenes/photos/banner.jpg" class="img-responsive" alt="slide"></center>
+				<center><img src = "/imagenes/photos/IMG_0030.JPG" class="img-responsive" alt="slide"></center>
 			</div>
 		</div>
 	</div>
