@@ -23,15 +23,6 @@ Route::get('/LOSANGELES_login', function () {
 Route::get('/LOSANGELES_adminportal', function () {
     return view('admin1home');
 });
-Route::get('/LOSANGELES_adminportal_reserva', function () {
-    return view('admin3reserva');
-});
-Route::get('/LOSANGELES_adminportal_habitaciones', function () {
-    return view('admin4habitaciones');
-});
-
-
-
 
 
 Route::get('/LOSANGELES_introduccion', function () {
@@ -58,12 +49,17 @@ Route::get('/LOSANGELES_galeria', function () {
 Route::get('/LOSANGELES_contactanos', function () {
     return view('contactanos');
 });
+Route::get('/LOSANGELES_cliente', function () {
+    return view('cliente');
+});
+Route::get('/LOSANGELES_reserva', function () {
+        return view('reserva');
+    });
+Route::get('/LOSANGELES_reserva','Api\ReservaController@create');
 
-Route::get('/reserva','Api\ReservaController@create');
+Route::post('/LOSANGELES_reserva', 'Api\ReservaController@store');
+Route::get('/LOSANGELES_cliente','Api\ClienteController@create');
 
-Route::post('/reserva', 'Api\ReservaController@store');
-Route::get('/cliente','Api\ClienteController@create');
+Route::post('/LOSANGELES_cliente', 'Api\ClienteController@store');
 
-Route::post('/cliente', 'Api\ClienteController@store');
-
-Route::resource('reserva', 'Api\ReservaController');
+Route::resource('LOSANGELES_reserva', 'Api\ReservaController');

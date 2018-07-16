@@ -46,7 +46,7 @@ class ClienteController extends Controller
             'slug' => $slug
         ));
         $cliente->save();
-        return redirect('/cliente')->with('status', 'Su cliente ha sido registrada. El id de registro es: '.$slug);
+        return redirect('/LOSANGELES_cliente')->with('status', 'Su cliente ha sido registrada. El id de registro es: '.$slug);
     }
 
     /**

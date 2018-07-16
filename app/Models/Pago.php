@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Reserva extends Model
+class Pago extends Model
 {
    /**
      * Tabla usada por el modelo en la base de datos.
@@ -19,18 +19,7 @@ class Reserva extends Model
      */
     protected $fillable = [
         'id',
-        'inicio',
-        'cant_dias',
-        'cant_hab',
-        'type',
-<<<<<<< HEAD
-        'nombre'
-=======
-        'nombre',
-        'tipo_pago',
-        'total_pago'
->>>>>>> franks
-
+       'tipo_pago'
         //'cliente_id',
         //'room_id'
 
@@ -55,4 +44,3 @@ class Reserva extends Model
     //}
 }
 
-    

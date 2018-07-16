@@ -5,62 +5,56 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>HOSTAL - LOS ANGELES</title>
-            <!-- Fonts -->
+
             <link rel="stylesheet" href="/css/estilo.css">
-
-            <!-- bootstrap -->
+  
             <link rel="stylesheet" href="/css/bootstrap.min.css" />
-            <!-- uniform -->
-            <link type="text/css" rel="stylesheet" href="/css/uniform.default.min.css" />
-            <!-- animate.css -->
-            <link rel="stylesheet" href="/css/animate.css" />
-            <!-- gallery -->
-            <link rel="stylesheet" href="/css/blueimp-gallery.min.css">
 
-            <!-- favicon -->
-            <link rel="shortcut icon" href="/imagenes/favicon.png">
-            <link rel="icon" href="/imagenes/favicon.png">
+            <link rel="stylesheet" href="/css/animate.css" />
+
             <script src="/js/jquery.js"></script>
-            <!-- wow script -->
+
             <script src="/js/wow.min.js"></script>
-            <!-- uniform -->
+
             <script src="/js/jquery.uniform.js"></script>
-            <!-- boostrap -->
-            <script src="/js/bootstrap.js" type="text/javascript" ></script>
-            <!-- jquery mobile -->
-            <script src="/js/touchSwipe.min.js"></script>
-            <!-- jquery mobile -->
+
             <script src="/js/respond.js"></script>
-            <!-- gallery -->
-            <script src="/js/jquery.blueimp-gallery.min.js"></script>
-            <!-- custom script -->
+
             <script src="/js/script.js"></script>
             <script src="/js/majax.js"></script>
 
-            <nav class="navbar  navbar-default" role="navigation" style="padding-bottom: 50px;padding-top: 50px">
+            <link rel="shortcut icon" href="imagenes/12345678.png" type="image/x-icon">
+            <link rel="icon" href="imagenes/12345678.png" type="image/x-icon">
+
+            <nav class="navbar  navbar-default" role="navigation" style="padding-bottom: 20px;padding-top: 20px">
                 <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only" style="color: black">Barra de Navegación</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand"><img src="imagenes/1234567.png"  alt="logo"></a>
-                    </div>
-                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">        
-                            <li><a href="LOSANGELES">INICIO</a></li> 
-                            <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>
-                            <li><a href="LOSANGELES_galeria">GALERIA</a></li>
-                        </ul>
-                    </div><!-- Wnavbar-collapse -->
-                </div><!-- container-fluid -->
+                <table>
+                    <tr>
+                        <td>
+                            <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only" style="color: black">Barra de Navegación</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <img src="imagenes/1234567.png" class="img-responsive" alt="logo">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">        
+                                <li><a href="LOSANGELES">INICIO</a></li> 
+                                <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>
+                                <li><a href="LOSANGELES_galeria">GALERIA</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                </div>
             </nav>
         </head>
-
-
     <body>
         @yield('contenido')
         @yield('pie')

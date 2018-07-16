@@ -18,7 +18,7 @@
 
 
        <div class="spacer">
-       <div class="embed-responsive embed-responsive-16by9"><iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+       <div class="embed-responsive embed-responsive-16by9"><iframe  class="embed-responsive-item" src="//player.vimeo.com/video/280025061" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
        </div>
 </div>
 @endsection
@@ -44,48 +44,14 @@
                                 <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
+                                <li><a href="LOSANGELES_cliente">RESERVACIONES</a></li>
                             </ul>
                         </div>
-                        <div class="col-sm-4 subscribe">
-                            <h4>SUSCRÍBETE</h4>
-                            <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
-                            <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">ENVIAR</button>
-                            </span>
-                            </div>
-                            <div class="social">
-                            <a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                            <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                            <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                            <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
-                            </div>
-                        </div>
                     </div>
-                    <!--/.row--> 
-                </div>
-                <!--/.container-->    
-            <!--/.footer-bottom--> 
+
+                </div>    
+
         </footer>
 
         <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
-       
-
-            <script src="/js/jquery.js"></script>
-            <!-- wow script -->
-            <script src="/js/wow.min.js"></script>
-            <!-- uniform -->
-            <script src="/js/jquery.uniform.js"></script>
-            <!-- boostrap -->
-            <script src="/js/bootstrap.js" type="text/javascript" ></script>
-            <!-- jquery mobile -->
-            <script src="/js/touchSwipe.min.js"></script>
-            <!-- jquery mobile -->
-            <script src="/js/respond.js"></script>
-            <!-- gallery -->
-            <script src="/js/jquery.blueimp-gallery.min.js"></script>
-            <!-- custom script -->
-            <script src="/js/script.js"></script>
 @endsection

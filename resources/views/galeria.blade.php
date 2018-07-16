@@ -3,18 +3,18 @@
     <div class="container">
         <h1 class="title">Gallery</h1>
         <div class="row gallery">
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/1.jpg" title="Foods" class="gallery-image" data-gallery><img src="imagenes/photos/1.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes//photos/2.jpg" title="Coffee" class="gallery-image" data-gallery><img src="imagenes/photos/2.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/3.jpg" title="Travel" class="gallery-image" data-gallery><img src="imagenes/photos/3.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/4.jpg" title="Adventure" class="gallery-image" data-gallery><img src="imagenes/photos/4.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/5.jpg" title="Fruits" class="gallery-image" data-gallery><img src="imagenes/photos/5.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/6.jpg" title="Summer" class="gallery-image" data-gallery><img src="imagenes/photos/6.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/7.jpg" title="Bathroom" class="gallery-image" data-gallery><img src="imagenes/photos/7.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/8.jpg" title="Rooms" class="gallery-image" data-gallery><img src="imagenes/photos/8.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/9.jpg" title="Big Room" class="gallery-image" data-gallery><img src="imagenes/photos/9.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/11.jpg" title="Living Room" class="gallery-image" data-gallery><img src="imagenes/photos/11.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/1.jpg" title="Fruits" class="gallery-image" data-gallery><img src="imagenes/photos/1.jpg" class="img-responsive"></a></div>
-            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/3.jpg" title="Travel" class="gallery-image" data-gallery><img src="imagenes/photos/3.jpg" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/cama1.png" class="gallery-image" data-gallery><img src="imagenes/photos/cama1.png" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes//photos/cama2.png" class="gallery-image" data-gallery><img src="imagenes/photos/cama2.png" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/cama3.png" class="gallery-image" data-gallery><img src="imagenes/photos/cama3.png" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/8.jpg" class="gallery-image" data-gallery><img src="imagenes/photos/8.jpg" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/IMG_0020.JPG" class="gallery-image" data-gallery><img src="imagenes/photos/IMG_0020.JPG" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/IMG_0021.JPG" class="gallery-image" data-gallery><img src="imagenes/photos/IMG_0021.JPG" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/IMG_0022.JPG" class="gallery-image" data-gallery><img src="imagenes/photos/IMG_0022.JPG" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/IMG_0025.JPG" class="gallery-image" data-gallery><img src="imagenes/photos/IMG_0025.JPG" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/IMG_0024.JPG" class="gallery-image" data-gallery><img src="imagenes/photos/IMG_0024.JPG" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/IMG_0023.JPG" class="gallery-image" data-gallery><img src="imagenes/photos/IMG_0023.JPG" class="img-responsive"></a></div>
+            <div class="col-sm-4 wowload fadeInUp"><a href="imagenes/photos/IMG_0036.JPG" class="gallery-image" data-gallery><img src="imagenes/photos/IMG_0036.JPG" class="img-responsive"></a></div>
+
         </div>
     </div>
 @endsection
@@ -40,48 +40,13 @@
                                 <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
+                                <li><a href="LOSANGELES_cliente">RESERVACIONES</a></li>
                             </ul>
                         </div>
-                        <div class="col-sm-4 subscribe">
-                            <h4>SUSCRÍBETE</h4>
-                            <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
-                            <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">ENVIAR</button>
-                            </span>
-                            </div>
-                            <div class="social">
-                            <a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                            <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                            <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                            <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
-                            </div>
-                        </div>
                     </div>
-                    <!--/.row--> 
                 </div>
-                <!--/.container-->    
-            <!--/.footer-bottom--> 
         </footer>
 
         <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
-       
 
-            <script src="/js/jquery.js"></script>
-            <!-- wow script -->
-            <script src="/js/wow.min.js"></script>
-            <!-- uniform -->
-            <script src="/js/jquery.uniform.js"></script>
-            <!-- boostrap -->
-            <script src="/js/bootstrap.js" type="text/javascript" ></script>
-            <!-- jquery mobile -->
-            <script src="/js/touchSwipe.min.js"></script>
-            <!-- jquery mobile -->
-            <script src="/js/respond.js"></script>
-            <!-- gallery -->
-            <script src="/js/jquery.blueimp-gallery.min.js"></script>
-            <!-- custom script -->
-            <script src="/js/script.js"></script>
 @endsection

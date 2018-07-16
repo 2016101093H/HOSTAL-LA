@@ -15,14 +15,15 @@ class CreatePagosTable extends Migration
     {
         Schema::create('pagos', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('total');
+          
             $table->string('tipo_pago',30);
-            $table->date('fecha_pago',30);
-            $table->timestamps();
-            $table->unsignedBigInteger('reserva_id');
+            
+         
+           /*$table->unsignedBigInteger('reserva_id');
+
             $table->foreign('reserva_id')
 				  ->references('id')
-                  ->on('reservas');   
+                  ->on('reservas'); */  
             
         });
     }

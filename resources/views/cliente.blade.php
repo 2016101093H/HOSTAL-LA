@@ -1,47 +1,68 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('plantilla')
+@section('contenido')
+        <nav style = "background-color:rgba(0, 0, 0, 0.1);" class = "navbar navbar-default">
+                <div  class = "container-fluid">
+                    <div class = "navbar-header">
+                        <a class = "navbar-brand" >Reserva en línea del hotel</a>
+                    </div>
+                    
+                </div>
+        </nav>
+        <div class = "container-fluid">	
+            <ul class = "nav nav-pills">
+                <li><a href = "LOSANGELES_adminportal_cliente">Registro</a></li>				
+            </ul>	
+	    </div>
+        <br />
+        <div class = "container">
+            <div class = "container-fluid">
+            <div class = "panel-body">
+                <form action='/LOSANGELES_cliente' id="login" method='post' style="color: rgb(1,1,1)">
+                    @foreach ($errors->all() as $error)
+                <p class="alert alert-danger">{{ $error }}</p>
+                @endforeach
 
-        <title>Laravel</title>
+                @if (session('status'))
+                    <div class='alert alert-succes'>
+                    {{ session('status')}}
+                    </div>
+                    @endif
+                <input type="hidden" name="_token" value="{!! csrf_token() !!}">
+                    <div class = "panel-heading" style="padding-left: 150px">
+                    <h4>REGISTRO CLIENTE</h4>
+                    <br></br></br>
+                    <label for="nombre">
+                    Nombre:
+                    </label>
+                        <input type="text" id="nombre" name="nombre">
+                    <br></br>
+                    <label for="dni">
+                    DNI:
+                    </label>
+                            <input type="text" id="dni" name="dni">
+                    <br></br>
+                    <label for="email">
+                    E-mail:
+                    </label>
+                            <input type="email" id="email" name="email">
+                    <br></br>
+                    <label for="telefono">
+                    Teléfono:
+                    </label>
+                            <input type="text" id="telefono" name="telefono">
+                    <br></br>
+                    <button type="submit"  href="LOSANGELES_reserva">
+                    Ingresar
+                    </button>
+                    <br></br>
+                    <div class="info"><a href="LOSANGELES_reserva" class="btn btn-default">Ir a Reserva</a></div>
+                    </div>
+                </form>
+            </div>
+            <br />
+            <br />
+        </div>
+        </div>
+        </body>
         
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-		<script src="/js/majax.js"></script>
-        
-		
-
-    </head>
-    <body>
-	<form action='/cliente' id="login" method='post'>
-    @foreach ($errors->all() as $error)
-<p class="alert alert-danger">{{ $error }}</p>
-@endforeach
-<input type="hidden" name="_token" value="{!! csrf_token() !!}">
-	    <legend>
-		   Cliente
-		   </legend>
-		   <label for="nombre">
-		   Nombre:
-		   </label>
-		   		<input type="text" id="nombre" name="nombre">
-		   <label for="dni">
-		   DNI:
-		   </label>
-		   		<input type="text" id="dni" name="dni">
-		   <label for="email">
-		   E-mail:
-		   </label>
-		   		<input type="email" id="email" name="email">
-		 <label for="telefono">
-		   Teelefono:
-		   </label>
-		   		<input type="text" id="telefono" name="telefono">
-		   <button type="submit">
-	       Ingresar
-		   </button>
-		   </form>
-      </body>
-      </html>     
+@endsection

@@ -64,6 +64,7 @@
                                 <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
                                 <li><a href="LOSANGELES_galeria">GALERIA</a></li>
                                 <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
+                                <li><a href="LOSANGELES_cliente">RESERVACIONES</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-3">
