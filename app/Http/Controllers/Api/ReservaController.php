@@ -22,7 +22,14 @@ class ReservaController extends Controller
         ->get();
         return view("reserva",["clientes"=>$clientes]);
         $clientes->save();
+   
+
+    }
+    public function index1()
+    {
         
+        $reservas=Reserva::all();
+        return view('modificar', compact('reservas'));
 
     }
 

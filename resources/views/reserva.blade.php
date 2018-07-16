@@ -29,27 +29,23 @@
 
 function varios(){
 <!-- Multiplicacion -->
-dias=0;
-if(formulario.type.value=='Dobles')
-var dias0 = parseInt(formulario.cant_dias.value);
-var hab = parseInt(formulario.cant_hab.value);
-formulario.total_pago.value=dias0*hab*40;
-
-if(formulario.type.value=='Triples')
-var dias3 = parseInt(formulario.cant_dias.value);
-var hab3 = parseInt(formulario.cant_hab.value);
-formulario.total_pago.value=dias3*hab3*50;
-
-if(formulario.type.value=='Indivuales')
-var dias1 = parseInt(formulario.cant_dias.value);
-var hab1 = parseInt(formulario.cant_hab.value);
-formulario.total_pago.value=dias1*hab1*30;
-
-if(formulario.type.value=='Matrimoniales')
-var dias2 = parseInt(formulario.cant_dias.value);
-var hab2 = parseInt(formulario.cant_hab.value);
-formulario.total_pago.value=dias2*hab2*60;
-}
+     if(formulario.type.value=='Dobles'){
+	var dias1 = parseInt(formulario.cant_dias.value);
+	 var hab1 = parseInt(formulario.cant_hab.value);
+	formulario.total_pago.value=dias1*hab1*40;};
+	 if(formulario.type.value=='Individuales'){
+	var dias2 = parseInt(formulario.cant_dias.value);
+	var hab2 = parseInt(formulario.cant_hab.value);
+	formulario.total_pago.value=dias2*hab2*30;};
+	if(formulario.type.value=='Matrimoniales'){
+	var dias3 = parseInt(formulario.cant_dias.value);
+	var hab3 = parseInt(formulario.cant_hab.value);
+	formulario.total_pago.value=dias3*hab3*60;};
+	if(formulario.type.value=='Triples'){
+	var dias0 = parseInt(formulario.cant_dias.value);
+	var hab0 = parseInt(formulario.cant_hab.value);
+	formulario.total_pago.value=dias0*hab0*50;};
+	}
 
 </script>
 
@@ -87,7 +83,7 @@ formulario.total_pago.value=dias2*hab2*60;
 		   <label for="tiempo">
 		   Tiempo (DÍAS):
 		   </label>
-		   		<input type="text" id="cant_dias" name="cant_dias">
+		   		<input type="number" id="cant_dias" name="cant_dias">
 		 <label for="Habs.">
 		   Cantidad de Hab.:
 		   </label>

@@ -80,3 +80,4 @@ Route::get('/LOSANGELES_cliente','Api\ClienteController@create');
 Route::post('/LOSANGELES_cliente', 'Api\ClienteController@store');
 
 Route::resource('LOSANGELES_reserva', 'Api\ReservaController');
+Route::get('/modificar', 'Api\ReservaController@index1');
