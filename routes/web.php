@@ -23,6 +23,15 @@ Route::get('/LOSANGELES_login', function () {
 Route::get('/LOSANGELES_adminportal', function () {
     return view('admin1home');
 });
+Route::get('/modificar', function () {
+    return view('modificar');
+});
+Route::get('/mostrar', function () {
+    return view('mostrar');
+});
+Route::get('/editar', function () {
+    return view('editar');
+});
 
 
 Route::get('/LOSANGELES_introduccion', function () {

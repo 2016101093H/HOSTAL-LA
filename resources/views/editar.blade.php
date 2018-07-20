@@ -1,21 +1,6 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-        
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-		<script src="/js/majax.js"></script>
-        
-		
-
-    </head>
-    <body>
-<div class="container col-md-8 col-md-offset-2">
+@extends('plantilladmin')
+@section('contenido')
+<div class="container col-md-8 col-md-offset-2" style="color: rgb(1,1,1)">
     <div class="well well bs-component">
     <form class="form-horizontal" method="post">
        @foreach ($errors->all() as $error)
@@ -72,5 +57,4 @@
    
                           </form>
                           </div>
-      </body>
-      </html>   
+@endsection

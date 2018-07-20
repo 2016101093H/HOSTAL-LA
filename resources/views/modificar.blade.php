@@ -1,20 +1,5 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-        
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-		<script src="/js/majax.js"></script>
-        
-		
-
-    </head>
-    <body>
+@extends('plantilladmin')
+@section('contenido')
 <div class="container col-md-8 col-md-offset-2">
      <div class="panel panel-default">
           <div class="panel-heading">
@@ -28,7 +13,8 @@
           @if ($reservas->isEmpty())
         <p>No hay reservas</p>
         @else
-        <table class="table">
+
+        <table class="table" style="color:rgb(1,1,1)">
             <thead>
               <tr>
                 <th>Id Reserva</th>
@@ -50,7 +36,4 @@
                           @endif
                           </div>
                           </div>
-   
-
-      </body>
-      </html>   
+@endsection

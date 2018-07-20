@@ -33,15 +33,15 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <img src="imagenes/1234567.png" class="img-responsive" alt="logo">
+                            <img src="/imagenes/1234567.png" class="img-responsive" alt="logo">
                             </div>
                         </td>
                         <td>
                             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">        
-                                <li><a href="LOSANGELES">INICIO</a></li>
-                                <li><a href = "LOSANGELES_adminportal_cliente">RESERVAS</a></li>	
-                                <li><a href="LOSANGELES_galeria">GALERIA</a></li>
+                                <li><a href="/LOSANGELES_adminportal">INICIO</a></li>
+                                <li><a href = "/modificar">RESERVAS</a></li>	
+                                <li><a href="/LOSANGELES_galeria">GALERIA</a></li>
                                 </ul>
                             </div>
                         </td>

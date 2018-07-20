@@ -107,11 +107,12 @@
                         <div class="col-sm-3">
                             <h4>ACCESOS RÁPIDOS</h4>
                             <ul class="list-unstyled">
-                                <li><a href="LOSANGELES">INICIO</a></li>   
-                                <li><a href="LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
-                                <li><a href="LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
-                                <li><a href="LOSANGELES_galeria">GALERIA</a></li>
-                                <li><a href="LOSANGELES_contactanos">CONTÁCTANOS</a></li>
+                                <li><a href="/LOSANGELES">INICIO</a></li>   
+                                <li><a href="/LOSANGELES_introduccion">¿QUIENES SOMOS?</a></li>
+                                <li><a href="/LOSANGELES_cuartos">CUARTOS: DETALLES Y TARIFAS</a></li>   
+                                <li><a href="/LOSANGELES_galeria">GALERIA</a></li>
+                                <li><a href="/LOSANGELES_contactanos">CONTÁCTANOS</a></li>
+                                <li><a href="/LOSANGELES_login">LOGIN ADMINISTRADOR</a></li>
                             </ul>
                         </div>
                     </div>
